@@ -1,0 +1,52 @@
+<svg viewBox="0 0 200 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hrafnar symbol - zjednodušená verze pro header/favicon -->
+
+  <g transform="translate(100, 80)">
+    <g fill="currentColor">
+      <!-- Hlava -->
+      <ellipse cx="34" cy="-6" rx="9" ry="8" transform="rotate(-15 34 -6)"/>
+      <path d="M 40 -8 L 52 -10 L 50 -4 Z"/>
+      <circle cx="36" cy="-7" r="1.6" fill="#0F1820" opacity="0.3"/>
+
+      <!-- Tělo -->
+      <ellipse cx="16" cy="0" rx="11" ry="14" transform="rotate(-10 16 0)"/>
+
+      <!-- Levé křídlo -->
+      <g>
+        <path d="M 8 -8 Q -12 -20, -40 -24 Q -56 -26, -64 -20 L -62 -18 Q -54 -22, -40 -20 Q -16 -16, 6 -6 Z"/>
+        <g opacity="0.35" stroke="currentColor" stroke-width="1.5" fill="none">
+          <path d="M -48 -22 L -46 -18"/>
+          <path d="M -42 -23 L -40 -19"/>
+          <path d="M -36 -23 L -34 -19"/>
+          <path d="M -30 -22 L -28 -18"/>
+          <path d="M -24 -21 L -22 -17"/>
+          <path d="M -50 -20 L -20 -16"/>
+        </g>
+        <path d="M 6 -4 Q -8 -10, -32 -14 Q -44 -16, -52 -12 L -50 -10 Q -42 -13, -30 -11 Q -10 -8, 5 -2 Z" opacity="0.7"/>
+      </g>
+
+      <!-- Pravé křídlo -->
+      <g>
+        <path d="M 24 -8 Q 36 -12, 56 -10 Q 68 -8, 74 -4 L 72 -2 Q 66 -5, 55 -7 Q 38 -9, 22 -6 Z"/>
+        <g opacity="0.35" stroke="currentColor" stroke-width="1.5" fill="none">
+          <path d="M 40 -11 L 42 -8"/>
+          <path d="M 46 -10 L 48 -7"/>
+          <path d="M 52 -10 L 54 -7"/>
+          <path d="M 58 -9 L 60 -6"/>
+          <path d="M 64 -7 L 66 -4"/>
+          <path d="M 38 -9 L 66 -5"/>
+        </g>
+        <path d="M 22 -4 Q 32 -6, 48 -5 Q 58 -4 64 -1 L 62 1 Q 56 -2, 47 -3 Q 34 -4, 21 -2 Z" opacity="0.7"/>
+      </g>
+
+      <!-- Ocas -->
+      <path d="M 10 10 L 6 24 L 8 22 L 10 26 L 12 23 L 14 28 L 16 25 L 19 30 L 18 10 Z"/>
+
+      <!-- Nohy -->
+      <g stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round">
+        <path d="M 14 12 L 14 17 M 13 17 L 15 17"/>
+        <path d="M 20 12 L 21 17 M 20 17 L 22 17"/>
+      </g>
+    </g>
+  </g>
+</svg>

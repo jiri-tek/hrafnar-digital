@@ -1,0 +1,49 @@
+<svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hrafnar Digital - Minimal Geometric Mark
+       Strong, clean, Nordic-inspired
+       Single raven eye + wing motif with compass points -->
+
+  <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Outer circle - compass ring -->
+    <circle cx="40" cy="40" r="32" stroke-width="2.5" opacity="0.3"/>
+
+    <!-- Wing segments - abstract geometric feathers -->
+    <g stroke-width="3">
+      <!-- Primary wing curve -->
+      <path d="M 40 40 Q 28 32, 16 36"/>
+      <path d="M 40 40 Q 26 40, 12 42"/>
+      <path d="M 40 40 Q 28 48, 18 54"/>
+
+      <!-- Counter wing/tail -->
+      <path d="M 40 40 Q 48 28, 56 22" opacity="0.6"/>
+      <path d="M 40 40 Q 52 36, 62 34" opacity="0.6"/>
+    </g>
+
+    <!-- Cardinal compass marks - Norse navigation -->
+    <g stroke-width="2.5" opacity="0.5">
+      <path d="M 40 6 L 40 12"/>   <!-- N -->
+      <path d="M 74 40 L 68 40"/>  <!-- E -->
+      <path d="M 40 74 L 40 68"/>  <!-- S -->
+      <path d="M 6 40 L 12 40"/>   <!-- W -->
+
+      <!-- NE diagonal -->
+      <path d="M 65 15 L 60 20"/>
+      <!-- SE diagonal -->
+      <path d="M 65 65 L 60 60"/>
+    </g>
+
+    <!-- Center - Raven eye (Insight) -->
+    <circle cx="40" cy="40" r="4.5" fill="currentColor" stroke-width="2"/>
+    <circle cx="40" cy="40" r="2" fill="none" stroke-width="1.5" opacity="0.4"/>
+
+    <!-- Beak accent -->
+    <path d="M 44 40 L 52 38 L 50 42 Z" fill="currentColor" stroke="none" opacity="0.8"/>
+  </g>
+
+  <!-- Signal dots - data/performance motif -->
+  <g fill="currentColor">
+    <circle cx="38" cy="28" r="1.5" opacity="0.6"/>
+    <circle cx="32" cy="32" r="1.2" opacity="0.5"/>
+    <circle cx="34" cy="24" r="1" opacity="0.4"/>
+  </g>
+</svg>

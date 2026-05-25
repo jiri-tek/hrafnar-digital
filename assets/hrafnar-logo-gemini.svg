@@ -1,0 +1,96 @@
+<svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hrafnar Digital Logo - inspirováno Gemini designem -->
+  <!-- Havran s nordickými vzory v křídlech -->
+
+  <defs>
+    <style>
+      .raven-body { fill: currentColor; }
+      .nordic-pattern { fill: currentColor; opacity: 0.95; }
+    </style>
+  </defs>
+
+  <g transform="translate(200, 80)">
+    <!-- Havran symbol -->
+    <g class="raven-body">
+      <!-- Hlava -->
+      <ellipse cx="25" cy="-10" rx="12" ry="14" transform="rotate(15 25 -10)"/>
+
+      <!-- Zobák -->
+      <path d="M 35 -12 L 48 -16 L 44 -8 Z"/>
+
+      <!-- Oko -->
+      <circle cx="28" cy="-12" r="2" fill="#0F1820"/>
+
+      <!-- Tělo -->
+      <ellipse cx="0" cy="8" rx="18" ry="22"/>
+
+      <!-- Levé křídlo s nordickým vzorem -->
+      <g>
+        <!-- Základní tvar křídla -->
+        <path d="M -8 0 Q -40 -8, -70 -4 Q -90 0, -88 8 Q -82 12, -60 10 Q -35 8, -12 12 Z"/>
+
+        <!-- Nordický vzor - keltský uzel -->
+        <g class="nordic-pattern" opacity="0.4">
+          <!-- Vodorovné linie -->
+          <path d="M -65 2 L -45 2" stroke="currentColor" stroke-width="2" fill="none"/>
+          <path d="M -65 6 L -45 6" stroke="currentColor" stroke-width="2" fill="none"/>
+
+          <!-- Diagonální křížení -->
+          <path d="M -62 0 L -58 8" stroke="currentColor" stroke-width="1.8" fill="none"/>
+          <path d="M -54 0 L -50 8" stroke="currentColor" stroke-width="1.8" fill="none"/>
+          <path d="M -58 0 L -62 8" stroke="currentColor" stroke-width="1.8" fill="none"/>
+          <path d="M -50 0 L -54 8" stroke="currentColor" stroke-width="1.8" fill="none"/>
+
+          <!-- Peří struktura -->
+          <path d="M -75 4 L -70 4" stroke="currentColor" stroke-width="2" fill="none"/>
+          <path d="M -80 6 L -73 6" stroke="currentColor" stroke-width="2" fill="none"/>
+          <path d="M -76 2 L -72 2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+        </g>
+      </g>
+
+      <!-- Pravé křídlo s nordickým vzorem -->
+      <g>
+        <!-- Základní tvar křídla -->
+        <path d="M 8 0 Q 40 -8, 70 -4 Q 90 0, 88 8 Q 82 12, 60 10 Q 35 8, 12 12 Z"/>
+
+        <!-- Nordický vzor - keltský uzel -->
+        <g class="nordic-pattern" opacity="0.4">
+          <!-- Vodorovné linie -->
+          <path d="M 45 2 L 65 2" stroke="currentColor" stroke-width="2" fill="none"/>
+          <path d="M 45 6 L 65 6" stroke="currentColor" stroke-width="2" fill="none"/>
+
+          <!-- Diagonální křížení -->
+          <path d="M 50 0 L 54 8" stroke="currentColor" stroke-width="1.8" fill="none"/>
+          <path d="M 58 0 L 62 8" stroke="currentColor" stroke-width="1.8" fill="none"/>
+          <path d="M 54 0 L 50 8" stroke="currentColor" stroke-width="1.8" fill="none"/>
+          <path d="M 62 0 L 58 8" stroke="currentColor" stroke-width="1.8" fill="none"/>
+
+          <!-- Peří struktura -->
+          <path d="M 70 4 L 75 4" stroke="currentColor" stroke-width="2" fill="none"/>
+          <path d="M 73 6 L 80 6" stroke="currentColor" stroke-width="2" fill="none"/>
+          <path d="M 72 2 L 76 2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+        </g>
+      </g>
+
+      <!-- Ocas -->
+      <path d="M -10 28 L -18 42 L -12 38 L -6 44 L 0 38 L 6 44 L 12 38 L 18 42 L 10 28 Z"/>
+
+      <!-- Nohy -->
+      <g stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round">
+        <path d="M -8 28 L -8 34 M -10 34 L -6 34"/>
+        <path d="M 8 28 L 8 34 M 6 34 L 10 34"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Text pod havrany -->
+  <g transform="translate(200, 130)">
+    <text x="0" y="0" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="36" fill="currentColor" letter-spacing="4">HRAFNAR</text>
+    <text x="0" y="32" text-anchor="middle" font-family="sans-serif" font-weight="400" font-size="20" fill="currentColor" letter-spacing="8">DIGITAL</text>
+
+    <!-- Accent linka -->
+    <line x1="-60" y1="42" x2="60" y2="42" stroke="#FC4D02" stroke-width="3"/>
+
+    <text x="0" y="62" text-anchor="middle" font-family="sans-serif" font-weight="400" font-size="11" fill="currentColor" letter-spacing="2" opacity="0.7">YOUR GROWTH PARTNER</text>
+  </g>
+</svg>

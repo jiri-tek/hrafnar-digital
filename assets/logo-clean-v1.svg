@@ -1,0 +1,16 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clean H monogram with wing accent -->
+  <g stroke="currentColor" stroke-width="2.5" stroke-linecap="square">
+    <!-- H shape -->
+    <path d="M 12 12 L 12 36"/>
+    <path d="M 12 24 L 28 24"/>
+    <path d="M 28 12 L 28 36"/>
+
+    <!-- Wing accent - single clean stroke -->
+    <path d="M 28 18 L 38 15" opacity="0.7"/>
+    <path d="M 28 30 L 38 33" opacity="0.7"/>
+  </g>
+
+  <!-- Eye dot -->
+  <circle cx="20" cy="24" r="1.5" fill="currentColor"/>
+</svg>

@@ -1,0 +1,65 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hrafnar Digital - Monogram Mark
+       H + D fusion with raven wing and Norse stave elements
+       Strong, architectural, premium -->
+
+  <defs>
+    <style>
+      .stroke { stroke: currentColor; fill: none; }
+      .fill { fill: currentColor; stroke: none; }
+    </style>
+  </defs>
+
+  <g class="stroke" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter">
+    <!-- H stem left -->
+    <path d="M 20 25 L 20 75"/>
+
+    <!-- H stem right / D curve fusion -->
+    <path d="M 45 25 L 45 75"/>
+
+    <!-- H cross bar -->
+    <path d="M 20 50 L 45 50"/>
+
+    <!-- D curve (right side) -->
+    <path d="M 45 25 Q 75 25, 75 50 Q 75 75, 45 75"/>
+
+    <!-- Wing element - abstract feather cuts -->
+    <g stroke-width="3" opacity="0.7">
+      <path d="M 45 35 L 30 30"/>
+      <path d="M 45 42 L 28 40"/>
+      <path d="M 45 58 L 28 60"/>
+      <path d="M 45 65 L 30 70"/>
+    </g>
+
+    <!-- Norse stave accents on H -->
+    <g stroke-width="2.5" opacity="0.5">
+      <!-- Top cap -->
+      <path d="M 16 25 L 24 25"/>
+      <path d="M 18 22 L 20 25 L 22 22"/>
+
+      <!-- Bottom cap -->
+      <path d="M 16 75 L 24 75"/>
+
+      <!-- Crossbar accents -->
+      <path d="M 20 48 L 20 52"/>
+      <path d="M 45 48 L 45 52"/>
+    </g>
+  </g>
+
+  <!-- Raven eye at intersection -->
+  <circle cx="32.5" cy="50" r="3" class="fill" opacity="0.9"/>
+  <circle cx="32.5" cy="50" r="1.2" fill="#FC4D02" opacity="0.8"/>
+
+  <!-- Compass point top -->
+  <g class="stroke" stroke-width="2" opacity="0.4">
+    <path d="M 50 8 L 50 15"/>
+    <path d="M 47 10 L 50 8 L 53 10"/>
+  </g>
+
+  <!-- Signal marks bottom -->
+  <g class="fill" opacity="0.6">
+    <rect x="35" y="88" width="6" height="2" rx="1"/>
+    <rect x="44" y="88" width="10" height="2" rx="1"/>
+    <rect x="57" y="88" width="14" height="2" rx="1"/>
+  </g>
+</svg>

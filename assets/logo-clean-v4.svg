@@ -1,0 +1,14 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Abstract wing/arrow - growth + direction -->
+  <g stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Main ascending line -->
+    <path d="M 10 36 L 24 12 L 38 24"/>
+
+    <!-- Wing feather lines -->
+    <path d="M 20 24 L 12 28" opacity="0.6"/>
+    <path d="M 16 18 L 10 20" opacity="0.5"/>
+
+    <!-- Top point accent -->
+    <circle cx="24" cy="12" r="2" fill="currentColor" stroke="none"/>
+  </g>
+</svg>

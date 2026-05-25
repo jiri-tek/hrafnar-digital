@@ -1,0 +1,33 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Elegantní havran - kombinace fill a stroke -->
+
+  <g>
+    <!-- Tělo - plná forma -->
+    <ellipse cx="32" cy="34" rx="8" ry="12" fill="currentColor"/>
+
+    <!-- Hlava - plná -->
+    <circle cx="32" cy="18" r="6" fill="currentColor"/>
+
+    <!-- Zobák -->
+    <path d="M 35 16 L 40 14 L 37 18 Z" fill="currentColor"/>
+
+    <!-- Křídla - outline pro lehkost -->
+    <g stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7">
+      <path d="M 26 30 Q 18 28, 12 32"/>
+      <path d="M 38 30 Q 46 28, 52 32"/>
+    </g>
+
+    <!-- Ocas - plný -->
+    <path d="M 28 44 L 26 52 L 28 50 L 32 52 L 36 50 L 38 52 L 36 44 Z" fill="currentColor" opacity="0.85"/>
+
+    <!-- Oko - světlé -->
+    <circle cx="33" cy="18" r="1.4" fill="#F2EFE9"/>
+
+    <!-- Runická značka na hrudi (Fehu - bohatství, růst) -->
+    <g stroke="#F2EFE9" stroke-width="1.5" stroke-linecap="round" opacity="0.6">
+      <path d="M 32 32 L 32 36"/>
+      <path d="M 32 32 L 35 33"/>
+      <path d="M 32 34 L 35 35"/>
+    </g>
+  </g>
+</svg>

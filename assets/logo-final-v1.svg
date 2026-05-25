@@ -1,0 +1,39 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Čistá silueta havrana v kruhu s runami -->
+
+  <!-- Vnější kruh -->
+  <circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- Havran - čistá silueta létajícího -->
+  <g fill="currentColor">
+    <!-- Tělo -->
+    <ellipse cx="32" cy="30" rx="4" ry="7"/>
+    <!-- Levé křídlo -->
+    <path d="M 28 28 Q 18 24, 12 28 Q 10 30, 14 32 Q 22 32, 28 32 Z"/>
+    <!-- Pravé křídlo -->
+    <path d="M 36 28 Q 46 24, 52 28 Q 54 30, 50 32 Q 42 32, 36 32 Z"/>
+    <!-- Hlava -->
+    <circle cx="32" cy="24" r="3"/>
+    <!-- Zobák -->
+    <path d="M 34 23 L 37 22 L 35 24 Z"/>
+    <!-- Ocas -->
+    <path d="M 30 36 L 28 42 L 30 40 L 32 42 L 34 40 L 36 42 L 34 36 Z"/>
+  </g>
+
+  <!-- Runy po obvodu (4 světové strany) -->
+  <g stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.6">
+    <!-- Sever - Ansuz (komunikace) -->
+    <path d="M 32 6 L 32 10"/>
+    <path d="M 30 7 L 32 6 L 34 7"/>
+
+    <!-- Východ - Raidho (cesta) -->
+    <path d="M 58 32 L 54 32"/>
+    <path d="M 57 30 L 58 32 L 57 34"/>
+
+    <!-- Jih -->
+    <path d="M 32 58 L 32 54"/>
+
+    <!-- Západ -->
+    <path d="M 6 32 L 10 32"/>
+  </g>
+</svg>

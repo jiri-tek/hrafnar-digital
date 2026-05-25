@@ -1,0 +1,23 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simplified Hrafnar Digital favicon - cleaner at small sizes -->
+  <g stroke="#F2EFE9" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Raven head & beak -->
+    <path d="M 45 18 L 52 16 L 54 20 L 50 22 Z"/>
+    <path d="M 45 18 C 42 18, 38 20, 36 24 C 34 28, 33 34, 34 40 C 35 44, 38 47, 42 48"/>
+    <!-- Main wing strokes -->
+    <path d="M 38 28 L 16 32"/>
+    <path d="M 36 34 L 12 38"/>
+    <path d="M 36 40 L 14 44"/>
+    <!-- Tail -->
+    <path d="M 42 48 L 38 54"/>
+    <path d="M 42 48 L 44 56"/>
+    <!-- Eye -->
+    <circle cx="46" cy="21" r="2" fill="#F2EFE9" stroke="none"/>
+    <!-- Simplified compass marks -->
+    <g opacity="0.6" stroke-width="2.2">
+      <path d="M 32 8 L 32 4"/>
+      <path d="M 30 7 L 32 4 L 34 7"/>
+      <path d="M 56 32 L 60 32"/>
+    </g>
+  </g>
+</svg>

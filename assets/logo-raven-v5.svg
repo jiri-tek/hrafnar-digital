@@ -1,0 +1,30 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clean outline raven - sitting -->
+  <g stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Head & neck -->
+    <circle cx="30" cy="18" r="5"/>
+    <path d="M 28 22 L 26 26"/>
+
+    <!-- Beak -->
+    <path d="M 34 17 L 37 16"/>
+
+    <!-- Body -->
+    <path d="M 26 26 Q 24 28, 24 32 Q 24 36, 28 38"/>
+
+    <!-- Wing folded -->
+    <path d="M 26 28 Q 20 30, 18 34" opacity="0.7"/>
+
+    <!-- Tail -->
+    <path d="M 28 38 L 26 42" opacity="0.7"/>
+
+    <!-- Eye -->
+    <circle cx="31" cy="18" r="1" fill="currentColor" stroke="none"/>
+
+    <!-- Legs/perch -->
+    <g opacity="0.5">
+      <path d="M 24 38 L 24 42"/>
+      <path d="M 28 38 L 28 42"/>
+      <path d="M 20 42 L 32 42"/>
+    </g>
+  </g>
+</svg>

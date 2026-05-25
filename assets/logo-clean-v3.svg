@@ -1,0 +1,22 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Nordic compass mark - single direction -->
+  <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Outer ring -->
+    <circle cx="24" cy="24" r="16" stroke-width="2" opacity="0.3"/>
+
+    <!-- North arrow (main direction) -->
+    <g stroke-width="2.5">
+      <path d="M 24 8 L 24 24"/>
+      <path d="M 20 12 L 24 8 L 28 12"/>
+    </g>
+
+    <!-- Side marks -->
+    <g stroke-width="2" opacity="0.5">
+      <path d="M 38 24 L 32 24"/>
+      <path d="M 10 24 L 16 24"/>
+    </g>
+
+    <!-- Center dot -->
+    <circle cx="24" cy="24" r="2" fill="currentColor" stroke="none"/>
+  </g>
+</svg>

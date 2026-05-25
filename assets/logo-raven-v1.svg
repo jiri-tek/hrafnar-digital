@@ -1,0 +1,15 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simple raven silhouette - side profile -->
+  <g fill="currentColor">
+    <!-- Head & beak -->
+    <path d="M 32 18 L 38 16 L 40 19 L 35 20 Z"/>
+    <!-- Body -->
+    <ellipse cx="26" cy="26" rx="8" ry="10" transform="rotate(-10 26 26)"/>
+    <!-- Wing -->
+    <path d="M 24 22 Q 18 24, 12 22 Q 10 24, 14 26 Q 18 26, 24 28 Z" opacity="0.85"/>
+    <!-- Tail -->
+    <path d="M 20 32 Q 16 36, 14 38 L 18 36 Q 20 34, 22 32 Z" opacity="0.8"/>
+    <!-- Eye -->
+    <circle cx="32" cy="20" r="1.2" fill="#F2EFE9"/>
+  </g>
+</svg>

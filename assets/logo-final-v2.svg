@@ -1,0 +1,38 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Havran z profilu + vertikální runická značka -->
+
+  <!-- Runická značka vzadu (Algiz - ochrana) -->
+  <g stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity="0.2">
+    <path d="M 32 12 L 32 52"/>
+    <path d="M 32 16 L 28 22"/>
+    <path d="M 32 16 L 36 22"/>
+  </g>
+
+  <!-- Havran silueta - čistý profil -->
+  <g fill="currentColor">
+    <!-- Hlava -->
+    <circle cx="42" cy="24" r="5"/>
+
+    <!-- Zobák -->
+    <path d="M 46 23 L 52 20 L 50 25 Z"/>
+
+    <!-- Krk a tělo -->
+    <path d="M 40 28 Q 36 30, 34 34 Q 32 38, 32 42 Q 32 46, 36 48"/>
+
+    <!-- Křídlo (složené) -->
+    <path d="M 36 34 L 24 36 L 26 38 L 36 40 Z" opacity="0.85"/>
+
+    <!-- Ocas -->
+    <path d="M 36 48 L 32 54 L 34 52 L 36 54 L 38 52 Z" opacity="0.9"/>
+
+    <!-- Oko -->
+    <circle cx="43" cy="24" r="1.2" fill="#F2EFE9"/>
+  </g>
+
+  <!-- Malý runický akcent dole -->
+  <g stroke="currentColor" stroke-width="1.8" stroke-linecap="round" opacity="0.5">
+    <path d="M 26 58 L 38 58"/>
+    <path d="M 28 56 L 28 60"/>
+    <path d="M 36 56 L 36 60"/>
+  </g>
+</svg>

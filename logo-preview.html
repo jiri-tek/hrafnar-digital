@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hrafnar Digital - Logo Variants Preview</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0F1820;
+      color: #F2EFE9;
+      font-family: system-ui, sans-serif;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+    .subtitle {
+      text-align: center;
+      color: #8B97A1;
+      margin-bottom: 60px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+      gap: 40px;
+      margin-bottom: 80px;
+    }
+    .variant {
+      background: #16222B;
+      border: 1px solid #243038;
+      border-radius: 8px;
+      padding: 40px;
+      text-align: center;
+    }
+    .variant h2 {
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+    }
+    .variant .desc {
+      color: #8B97A1;
+      font-size: 0.9rem;
+      margin-bottom: 30px;
+      line-height: 1.5;
+    }
+    .logo-wrapper {
+      background: #0F1820;
+      border: 1px solid #243038;
+      border-radius: 6px;
+      padding: 60px 40px;
+      margin-bottom: 30px;
+    }
+    .logo-wrapper svg {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+      color: #F2EFE9;
+    }
+    .sizes {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .size-demo {
+      background: #0F1820;
+      border: 1px solid #243038;
+      border-radius: 4px;
+      padding: 15px;
+    }
+    .size-demo svg {
+      color: #F2EFE9;
+      display: block;
+    }
+    .label {
+      font-size: 0.75rem;
+      color: #8B97A1;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 10px;
+    }
+    .on-accent {
+      background: #FC4D02;
+    }
+    .on-accent svg {
+      color: #fff;
+    }
+    .comparison {
+      margin-top: 60px;
+      padding: 40px;
+      background: #16222B;
+      border: 1px solid #243038;
+      border-radius: 8px;
+    }
+    .comparison h2 {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .comp-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 30px;
+      align-items: center;
+    }
+    .comp-item {
+      text-align: center;
+    }
+    .comp-item p {
+      font-size: 0.85rem;
+      color: #8B97A1;
+      margin-top: 15px;
+    }
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+      .comp-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hrafnar Digital - Logo Variants</h1>
+    <p class="subtitle">Vyberte si nejlepší verzi loga pro značku</p>
+
+    <div class="grid">
+      <!-- Variant 1: Geometric Profile -->
+      <div class="variant">
+        <h2>Varianta 1: Geometric Raven</h2>
+        <p class="desc">Geometrický profil krkavce s nordickými kompasovými prvky. Vrstvená křídla, oko jako "Insight" motiv.</p>
+
+        <div class="logo-wrapper">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs><style>.hd-primary { stroke: currentColor; fill: none; } .hd-accent { fill: currentColor; }</style></defs>
+            <g class="hd-primary" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M 45 18 L 52 16 L 54 20 L 50 22 Z"/>
+              <path d="M 45 18 C 42 18, 38 20, 36 24 C 34 28, 33 34, 34 40 C 35 44, 38 47, 42 48"/>
+              <path d="M 38 28 L 18 32 L 16 30"/>
+              <path d="M 36 34 L 12 38 L 10 36"/>
+              <path d="M 36 40 L 14 44 L 12 42"/>
+              <path d="M 42 48 L 38 54 L 36 52"/>
+              <path d="M 42 48 L 44 56 L 42 54"/>
+              <circle cx="46" cy="21" r="1.8" class="hd-accent" stroke="none"/>
+              <g opacity="0.7" stroke-width="1.8">
+                <path d="M 32 8 L 32 4"/>
+                <path d="M 30 7 L 32 4 L 34 7"/>
+                <path d="M 56 32 L 60 32"/>
+                <path d="M 57 30 L 60 32 L 57 34"/>
+                <path d="M 32 56 L 32 60"/>
+                <path d="M 8 32 L 4 32"/>
+              </g>
+              <g class="hd-accent" stroke="none" opacity="0.8">
+                <circle cx="24" cy="24" r="1.2"/>
+                <circle cx="28" cy="18" r="1"/>
+                <circle cx="20" cy="20" r="0.8"/>
+              </g>
+            </g>
+          </svg>
+        </div>
+
+        <div class="label">Velikosti</div>
+        <div class="sizes">
+          <div class="size-demo"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:80px;height:80px"><defs><style>.hd-primary{stroke:currentColor;fill:none}.hd-accent{fill:currentColor}</style></defs><g class="hd-primary" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M 45 18 L 52 16 L 54 20 L 50 22 Z"/><path d="M 45 18 C 42 18, 38 20, 36 24 C 34 28, 33 34, 34 40 C 35 44, 38 47, 42 48"/><path d="M 38 28 L 18 32 L 16 30"/><path d="M 36 34 L 12 38 L 10 36"/><path d="M 36 40 L 14 44 L 12 42"/><path d="M 42 48 L 38 54 L 36 52"/><path d="M 42 48 L 44 56 L 42 54"/><circle cx="46" cy="21" r="1.8" class="hd-accent" stroke="none"/><g opacity="0.7" stroke-width="1.8"><path d="M 32 8 L 32 4"/><path d="M 30 7 L 32 4 L 34 7"/><path d="M 56 32 L 60 32"/><path d="M 57 30 L 60 32 L 57 34"/><path d="M 32 56 L 32 60"/><path d="M 8 32 L 4 32"/></g><g class="hd-accent" stroke="none" opacity="0.8"><circle cx="24" cy="24" r="1.2"/><circle cx="28" cy="18" r="1"/><circle cx="20" cy="20" r="0.8"/></g></g></svg></div>
+          <div class="size-demo"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:40px;height:40px"><defs><style>.hd-primary{stroke:currentColor;fill:none}.hd-accent{fill:currentColor}</style></defs><g class="hd-primary" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M 45 18 L 52 16 L 54 20 L 50 22 Z"/><path d="M 45 18 C 42 18, 38 20, 36 24 C 34 28, 33 34, 34 40 C 35 44, 38 47, 42 48"/><path d="M 38 28 L 18 32 L 16 30"/><path d="M 36 34 L 12 38 L 10 36"/><path d="M 36 40 L 14 44 L 12 42"/><path d="M 42 48 L 38 54 L 36 52"/><path d="M 42 48 L 44 56 L 42 54"/><circle cx="46" cy="21" r="1.8" class="hd-accent" stroke="none"/><g opacity="0.7" stroke-width="1.8"><path d="M 32 8 L 32 4"/><path d="M 30 7 L 32 4 L 34 7"/><path d="M 56 32 L 60 32"/><path d="M 57 30 L 60 32 L 57 34"/><path d="M 32 56 L 32 60"/><path d="M 8 32 L 4 32"/></g><g class="hd-accent" stroke="none" opacity="0.8"><circle cx="24" cy="24" r="1.2"/><circle cx="28" cy="18" r="1"/><circle cx="20" cy="20" r="0.8"/></g></g></svg></div>
+          <div class="size-demo on-accent"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:32px;height:32px"><defs><style>.hd-primary{stroke:currentColor;fill:none}.hd-accent{fill:currentColor}</style></defs><g class="hd-primary" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M 45 18 L 52 16 L 54 20 L 50 22 Z"/><path d="M 45 18 C 42 18, 38 20, 36 24 C 34 28, 33 34, 34 40 C 35 44, 38 47, 42 48"/><path d="M 38 28 L 18 32 L 16 30"/><path d="M 36 34 L 12 38 L 10 36"/><path d="M 36 40 L 14 44 L 12 42"/><path d="M 42 48 L 38 54 L 36 52"/><path d="M 42 48 L 44 56 L 42 54"/><circle cx="46" cy="21" r="1.8" class="hd-accent" stroke="none"/><g opacity="0.7" stroke-width="1.8"><path d="M 32 8 L 32 4"/><path d="M 30 7 L 32 4 L 34 7"/><path d="M 56 32 L 60 32"/><path d="M 57 30 L 60 32 L 57 34"/><path d="M 32 56 L 32 60"/><path d="M 8 32 L 4 32"/></g><g class="hd-accent" stroke="none" opacity="0.8"><circle cx="24" cy="24" r="1.2"/><circle cx="28" cy="18" r="1"/><circle cx="20" cy="20" r="0.8"/></g></g></svg></div>
+        </div>
+      </div>
+
+      <!-- Variant 2: Minimal Compass -->
+      <div class="variant">
+        <h2>Varianta 2: Compass Eye</h2>
+        <p class="desc">Minimalistický kompas s okem krkavce uprostřed. Abstraktní křídla, nordické směrové značky. Čistý a silný.</p>
+
+        <div class="logo-wrapper">
+          <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="40" cy="40" r="32" stroke-width="2.5" opacity="0.3"/>
+              <g stroke-width="3">
+                <path d="M 40 40 Q 28 32, 16 36"/>
+                <path d="M 40 40 Q 26 40, 12 42"/>
+                <path d="M 40 40 Q 28 48, 18 54"/>
+                <path d="M 40 40 Q 48 28, 56 22" opacity="0.6"/>
+                <path d="M 40 40 Q 52 36, 62 34" opacity="0.6"/>
+              </g>
+              <g stroke-width="2.5" opacity="0.5">
+                <path d="M 40 6 L 40 12"/>
+                <path d="M 74 40 L 68 40"/>
+                <path d="M 40 74 L 40 68"/>
+                <path d="M 6 40 L 12 40"/>
+                <path d="M 65 15 L 60 20"/>
+                <path d="M 65 65 L 60 60"/>
+              </g>
+              <circle cx="40" cy="40" r="4.5" fill="currentColor" stroke-width="2"/>
+              <circle cx="40" cy="40" r="2" fill="none" stroke-width="1.5" opacity="0.4"/>
+              <path d="M 44 40 L 52 38 L 50 42 Z" fill="currentColor" stroke="none" opacity="0.8"/>
+            </g>
+            <g fill="currentColor">
+              <circle cx="38" cy="28" r="1.5" opacity="0.6"/>
+              <circle cx="32" cy="32" r="1.2" opacity="0.5"/>
+              <circle cx="34" cy="24" r="1" opacity="0.4"/>
+            </g>
+          </svg>
+        </div>
+
+        <div class="label">Velikosti</div>
+        <div class="sizes">
+          <div class="size-demo"><svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:80px;height:80px"><g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="40" cy="40" r="32" stroke-width="2.5" opacity="0.3"/><g stroke-width="3"><path d="M 40 40 Q 28 32, 16 36"/><path d="M 40 40 Q 26 40, 12 42"/><path d="M 40 40 Q 28 48, 18 54"/><path d="M 40 40 Q 48 28, 56 22" opacity="0.6"/><path d="M 40 40 Q 52 36, 62 34" opacity="0.6"/></g><g stroke-width="2.5" opacity="0.5"><path d="M 40 6 L 40 12"/><path d="M 74 40 L 68 40"/><path d="M 40 74 L 40 68"/><path d="M 6 40 L 12 40"/><path d="M 65 15 L 60 20"/><path d="M 65 65 L 60 60"/></g><circle cx="40" cy="40" r="4.5" fill="currentColor" stroke-width="2"/><circle cx="40" cy="40" r="2" fill="none" stroke-width="1.5" opacity="0.4"/><path d="M 44 40 L 52 38 L 50 42 Z" fill="currentColor" stroke="none" opacity="0.8"/></g><g fill="currentColor"><circle cx="38" cy="28" r="1.5" opacity="0.6"/><circle cx="32" cy="32" r="1.2" opacity="0.5"/><circle cx="34" cy="24" r="1" opacity="0.4"/></g></svg></div>
+          <div class="size-demo"><svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:40px;height:40px"><g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="40" cy="40" r="32" stroke-width="2.5" opacity="0.3"/><g stroke-width="3"><path d="M 40 40 Q 28 32, 16 36"/><path d="M 40 40 Q 26 40, 12 42"/><path d="M 40 40 Q 28 48, 18 54"/><path d="M 40 40 Q 48 28, 56 22" opacity="0.6"/><path d="M 40 40 Q 52 36, 62 34" opacity="0.6"/></g><g stroke-width="2.5" opacity="0.5"><path d="M 40 6 L 40 12"/><path d="M 74 40 L 68 40"/><path d="M 40 74 L 40 68"/><path d="M 6 40 L 12 40"/><path d="M 65 15 L 60 20"/><path d="M 65 65 L 60 60"/></g><circle cx="40" cy="40" r="4.5" fill="currentColor" stroke-width="2"/><circle cx="40" cy="40" r="2" fill="none" stroke-width="1.5" opacity="0.4"/><path d="M 44 40 L 52 38 L 50 42 Z" fill="currentColor" stroke="none" opacity="0.8"/></g><g fill="currentColor"><circle cx="38" cy="28" r="1.5" opacity="0.6"/><circle cx="32" cy="32" r="1.2" opacity="0.5"/><circle cx="34" cy="24" r="1" opacity="0.4"/></g></svg></div>
+          <div class="size-demo on-accent"><svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:32px;height:32px"><g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="40" cy="40" r="32" stroke-width="2.5" opacity="0.3"/><g stroke-width="3"><path d="M 40 40 Q 28 32, 16 36"/><path d="M 40 40 Q 26 40, 12 42"/><path d="M 40 40 Q 28 48, 18 54"/><path d="M 40 40 Q 48 28, 56 22" opacity="0.6"/><path d="M 40 40 Q 52 36, 62 34" opacity="0.6"/></g><g stroke-width="2.5" opacity="0.5"><path d="M 40 6 L 40 12"/><path d="M 74 40 L 68 40"/><path d="M 40 74 L 40 68"/><path d="M 6 40 L 12 40"/><path d="M 65 15 L 60 20"/><path d="M 65 65 L 60 60"/></g><circle cx="40" cy="40" r="4.5" fill="currentColor" stroke-width="2"/><circle cx="40" cy="40" r="2" fill="none" stroke-width="1.5" opacity="0.4"/><path d="M 44 40 L 52 38 L 50 42 Z" fill="currentColor" stroke="none" opacity="0.8"/></g><g fill="currentColor"><circle cx="38" cy="28" r="1.5" opacity="0.6"/><circle cx="32" cy="32" r="1.2" opacity="0.5"/><circle cx="34" cy="24" r="1" opacity="0.4"/></g></svg></div>
+        </div>
+      </div>
+
+      <!-- Variant 3: Monogram -->
+      <div class="variant">
+        <h2>Varianta 3: H+D Monogram</h2>
+        <p class="desc">Fúze písmen H a D s motivem křídla. Architektonický, silný, premium. Nordské stave prvky na "H".</p>
+
+        <div class="logo-wrapper">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs><style>.stroke{stroke:currentColor;fill:none}.fill{fill:currentColor;stroke:none}</style></defs>
+            <g class="stroke" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter">
+              <path d="M 20 25 L 20 75"/>
+              <path d="M 45 25 L 45 75"/>
+              <path d="M 20 50 L 45 50"/>
+              <path d="M 45 25 Q 75 25, 75 50 Q 75 75, 45 75"/>
+              <g stroke-width="3" opacity="0.7">
+                <path d="M 45 35 L 30 30"/>
+                <path d="M 45 42 L 28 40"/>
+                <path d="M 45 58 L 28 60"/>
+                <path d="M 45 65 L 30 70"/>
+              </g>
+              <g stroke-width="2.5" opacity="0.5">
+                <path d="M 16 25 L 24 25"/>
+                <path d="M 18 22 L 20 25 L 22 22"/>
+                <path d="M 16 75 L 24 75"/>
+                <path d="M 20 48 L 20 52"/>
+                <path d="M 45 48 L 45 52"/>
+              </g>
+            </g>
+            <circle cx="32.5" cy="50" r="3" class="fill" opacity="0.9"/>
+            <circle cx="32.5" cy="50" r="1.2" fill="#FC4D02" opacity="0.8"/>
+            <g class="stroke" stroke-width="2" opacity="0.4">
+              <path d="M 50 8 L 50 15"/>
+              <path d="M 47 10 L 50 8 L 53 10"/>
+            </g>
+            <g class="fill" opacity="0.6">
+              <rect x="35" y="88" width="6" height="2" rx="1"/>
+              <rect x="44" y="88" width="10" height="2" rx="1"/>
+              <rect x="57" y="88" width="14" height="2" rx="1"/>
+            </g>
+          </svg>
+        </div>
+
+        <div class="label">Velikosti</div>
+        <div class="sizes">
+          <div class="size-demo"><svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:80px;height:80px"><defs><style>.stroke{stroke:currentColor;fill:none}.fill{fill:currentColor;stroke:none}</style></defs><g class="stroke" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter"><path d="M 20 25 L 20 75"/><path d="M 45 25 L 45 75"/><path d="M 20 50 L 45 50"/><path d="M 45 25 Q 75 25, 75 50 Q 75 75, 45 75"/><g stroke-width="3" opacity="0.7"><path d="M 45 35 L 30 30"/><path d="M 45 42 L 28 40"/><path d="M 45 58 L 28 60"/><path d="M 45 65 L 30 70"/></g><g stroke-width="2.5" opacity="0.5"><path d="M 16 25 L 24 25"/><path d="M 18 22 L 20 25 L 22 22"/><path d="M 16 75 L 24 75"/><path d="M 20 48 L 20 52"/><path d="M 45 48 L 45 52"/></g></g><circle cx="32.5" cy="50" r="3" class="fill" opacity="0.9"/><circle cx="32.5" cy="50" r="1.2" fill="#FC4D02" opacity="0.8"/><g class="stroke" stroke-width="2" opacity="0.4"><path d="M 50 8 L 50 15"/><path d="M 47 10 L 50 8 L 53 10"/></g><g class="fill" opacity="0.6"><rect x="35" y="88" width="6" height="2" rx="1"/><rect x="44" y="88" width="10" height="2" rx="1"/><rect x="57" y="88" width="14" height="2" rx="1"/></g></svg></div>
+          <div class="size-demo"><svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:40px;height:40px"><defs><style>.stroke{stroke:currentColor;fill:none}.fill{fill:currentColor;stroke:none}</style></defs><g class="stroke" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter"><path d="M 20 25 L 20 75"/><path d="M 45 25 L 45 75"/><path d="M 20 50 L 45 50"/><path d="M 45 25 Q 75 25, 75 50 Q 75 75, 45 75"/><g stroke-width="3" opacity="0.7"><path d="M 45 35 L 30 30"/><path d="M 45 42 L 28 40"/><path d="M 45 58 L 28 60"/><path d="M 45 65 L 30 70"/></g><g stroke-width="2.5" opacity="0.5"><path d="M 16 25 L 24 25"/><path d="M 18 22 L 20 25 L 22 22"/><path d="M 16 75 L 24 75"/><path d="M 20 48 L 20 52"/><path d="M 45 48 L 45 52"/></g></g><circle cx="32.5" cy="50" r="3" class="fill" opacity="0.9"/><circle cx="32.5" cy="50" r="1.2" fill="#FC4D02" opacity="0.8"/><g class="stroke" stroke-width="2" opacity="0.4"><path d="M 50 8 L 50 15"/><path d="M 47 10 L 50 8 L 53 10"/></g><g class="fill" opacity="0.6"><rect x="35" y="88" width="6" height="2" rx="1"/><rect x="44" y="88" width="10" height="2" rx="1"/><rect x="57" y="88" width="14" height="2" rx="1"/></g></svg></div>
+          <div class="size-demo on-accent"><svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:32px;height:32px"><defs><style>.stroke{stroke:currentColor;fill:none}.fill{fill:currentColor;stroke:none}</style></defs><g class="stroke" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter"><path d="M 20 25 L 20 75"/><path d="M 45 25 L 45 75"/><path d="M 20 50 L 45 50"/><path d="M 45 25 Q 75 25, 75 50 Q 75 75, 45 75"/><g stroke-width="3" opacity="0.7"><path d="M 45 35 L 30 30"/><path d="M 45 42 L 28 40"/><path d="M 45 58 L 28 60"/><path d="M 45 65 L 30 70"/></g><g stroke-width="2.5" opacity="0.5"><path d="M 16 25 L 24 25"/><path d="M 18 22 L 20 25 L 22 22"/><path d="M 16 75 L 24 75"/><path d="M 20 48 L 20 52"/><path d="M 45 48 L 45 52"/></g></g><circle cx="32.5" cy="50" r="3" class="fill" opacity="0.9"/><circle cx="32.5" cy="50" r="1.2" fill="#FC4D02" opacity="0.8"/><g class="stroke" stroke-width="2" opacity="0.4"><path d="M 50 8 L 50 15"/><path d="M 47 10 L 50 8 L 53 10"/></g><g class="fill" opacity="0.6"><rect x="35" y="88" width="6" height="2" rx="1"/><rect x="44" y="88" width="10" height="2" rx="1"/><rect x="57" y="88" width="14" height="2" rx="1"/></g></svg></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Side by side comparison -->
+    <div class="comparison">
+      <h2>Srovnání všech variant</h2>
+      <div class="comp-grid">
+        <div class="comp-item">
+          <div style="background:#0F1820;padding:30px;border-radius:6px;">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100px;height:100px;margin:0 auto;color:#F2EFE9;display:block;"><defs><style>.hd-primary{stroke:currentColor;fill:none}.hd-accent{fill:currentColor}</style></defs><g class="hd-primary" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M 45 18 L 52 16 L 54 20 L 50 22 Z"/><path d="M 45 18 C 42 18, 38 20, 36 24 C 34 28, 33 34, 34 40 C 35 44, 38 47, 42 48"/><path d="M 38 28 L 18 32 L 16 30"/><path d="M 36 34 L 12 38 L 10 36"/><path d="M 36 40 L 14 44 L 12 42"/><path d="M 42 48 L 38 54 L 36 52"/><path d="M 42 48 L 44 56 L 42 54"/><circle cx="46" cy="21" r="1.8" class="hd-accent" stroke="none"/><g opacity="0.7" stroke-width="1.8"><path d="M 32 8 L 32 4"/><path d="M 30 7 L 32 4 L 34 7"/><path d="M 56 32 L 60 32"/><path d="M 57 30 L 60 32 L 57 34"/><path d="M 32 56 L 32 60"/><path d="M 8 32 L 4 32"/></g><g class="hd-accent" stroke="none" opacity="0.8"><circle cx="24" cy="24" r="1.2"/><circle cx="28" cy="18" r="1"/><circle cx="20" cy="20" r="0.8"/></g></g></svg>
+          </div>
+          <p>Geometric Raven<br><strong>Detail, narativní</strong></p>
+        </div>
+        <div class="comp-item">
+          <div style="background:#0F1820;padding:30px;border-radius:6px;">
+            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100px;height:100px;margin:0 auto;color:#F2EFE9;display:block;"><g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="40" cy="40" r="32" stroke-width="2.5" opacity="0.3"/><g stroke-width="3"><path d="M 40 40 Q 28 32, 16 36"/><path d="M 40 40 Q 26 40, 12 42"/><path d="M 40 40 Q 28 48, 18 54"/><path d="M 40 40 Q 48 28, 56 22" opacity="0.6"/><path d="M 40 40 Q 52 36, 62 34" opacity="0.6"/></g><g stroke-width="2.5" opacity="0.5"><path d="M 40 6 L 40 12"/><path d="M 74 40 L 68 40"/><path d="M 40 74 L 40 68"/><path d="M 6 40 L 12 40"/><path d="M 65 15 L 60 20"/><path d="M 65 65 L 60 60"/></g><circle cx="40" cy="40" r="4.5" fill="currentColor" stroke-width="2"/><circle cx="40" cy="40" r="2" fill="none" stroke-width="1.5" opacity="0.4"/><path d="M 44 40 L 52 38 L 50 42 Z" fill="currentColor" stroke="none" opacity="0.8"/></g><g fill="currentColor"><circle cx="38" cy="28" r="1.5" opacity="0.6"/><circle cx="32" cy="32" r="1.2" opacity="0.5"/><circle cx="34" cy="24" r="1" opacity="0.4"/></g></svg>
+          </div>
+          <p>Compass Eye<br><strong>Abstraktní, minimalistické</strong></p>
+        </div>
+        <div class="comp-item">
+          <div style="background:#0F1820;padding:30px;border-radius:6px;">
+            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100px;height:100px;margin:0 auto;color:#F2EFE9;display:block;"><defs><style>.stroke{stroke:currentColor;fill:none}.fill{fill:currentColor;stroke:none}</style></defs><g class="stroke" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter"><path d="M 20 25 L 20 75"/><path d="M 45 25 L 45 75"/><path d="M 20 50 L 45 50"/><path d="M 45 25 Q 75 25, 75 50 Q 75 75, 45 75"/><g stroke-width="3" opacity="0.7"><path d="M 45 35 L 30 30"/><path d="M 45 42 L 28 40"/><path d="M 45 58 L 28 60"/><path d="M 45 65 L 30 70"/></g><g stroke-width="2.5" opacity="0.5"><path d="M 16 25 L 24 25"/><path d="M 18 22 L 20 25 L 22 22"/><path d="M 16 75 L 24 75"/><path d="M 20 48 L 20 52"/><path d="M 45 48 L 45 52"/></g></g><circle cx="32.5" cy="50" r="3" class="fill" opacity="0.9"/><circle cx="32.5" cy="50" r="1.2" fill="#FC4D02" opacity="0.8"/><g class="stroke" stroke-width="2" opacity="0.4"><path d="M 50 8 L 50 15"/><path d="M 47 10 L 50 8 L 53 10"/></g><g class="fill" opacity="0.6"><rect x="35" y="88" width="6" height="2" rx="1"/><rect x="44" y="88" width="10" height="2" rx="1"/><rect x="57" y="88" width="14" height="2" rx="1"/></g></svg>
+          </div>
+          <p>H+D Monogram<br><strong>Architektonický, premium</strong></p>
+        </div>
+        <div class="comp-item">
+          <div style="background:#0F1820;padding:30px;border-radius:6px;">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100px;height:100px;margin:0 auto;color:#F2EFE9;display:block;"><g stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M14 44 C14 26 26 16 40 16 C46 16 52 19 56 24 L46 30 C49 33 50 38 48 43 C44 51 34 54 26 52 C19 50 14 48 14 44 Z"/><path d="M14 44 L6 47 L13 38"/><circle cx="37" cy="30" r="2.4" fill="currentColor" stroke="none"/><path d="M30 58 L34 58"/><path d="M37 58 L45 58"/><path d="M48 58 L58 58"/></g></svg>
+          </div>
+          <p>Původní<br><strong>Pro srovnání</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

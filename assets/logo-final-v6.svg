@@ -1,0 +1,31 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Super čistý havran - jen základní tvary -->
+
+  <g fill="currentColor">
+    <!-- Hlava - kruh -->
+    <circle cx="32" cy="22" r="7"/>
+
+    <!-- Zobák - jednoduchý trojúhelník -->
+    <path d="M 38 20 L 44 18 L 40 23 Z"/>
+
+    <!-- Tělo - elipsa -->
+    <ellipse cx="32" cy="38" rx="9" ry="13"/>
+
+    <!-- Křídla - dvě jednoduché kapky -->
+    <ellipse cx="20" cy="34" rx="8" ry="4" opacity="0.5" transform="rotate(-20 20 34)"/>
+    <ellipse cx="44" cy="34" rx="8" ry="4" opacity="0.5" transform="rotate(20 44 34)"/>
+
+    <!-- Ocas - trojúhelník -->
+    <path d="M 28 48 L 24 56 L 32 52 L 40 56 L 36 48 Z" opacity="0.75"/>
+
+    <!-- Oko - malý bod -->
+    <circle cx="34" cy="22" r="1.5" fill="#F2EFE9"/>
+  </g>
+
+  <!-- Tři jednoduché runy pod havrany -->
+  <g stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.35">
+    <path d="M 24 60 L 24 58"/>
+    <path d="M 32 60 L 32 56"/>
+    <path d="M 40 60 L 40 58"/>
+  </g>
+</svg>

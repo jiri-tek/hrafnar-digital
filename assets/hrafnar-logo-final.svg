@@ -1,0 +1,100 @@
+<svg viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hrafnar Digital - Finální logo z LOGO 2.png -->
+  <!-- Havran v letu s nordickými keltskými vzory -->
+
+  <g transform="translate(250, 200)">
+    <g fill="currentColor">
+      <!-- Hlava a zobák -->
+      <ellipse cx="85" cy="-15" rx="22" ry="20" transform="rotate(-15 85 -15)"/>
+      <path d="M 100 -20 L 130 -25 L 125 -10 Z"/>
+
+      <!-- Oko -->
+      <circle cx="90" cy="-18" r="4" fill="#0F1820" opacity="0.3"/>
+
+      <!-- Tělo -->
+      <ellipse cx="40" cy="0" rx="28" ry="35" transform="rotate(-10 40 0)"/>
+
+      <!-- Levé křídlo - horní část s nordickými vzory -->
+      <g>
+        <!-- Hlavní křídlo -->
+        <path d="M 20 -20 Q -30 -50, -100 -60 Q -140 -65, -160 -50 L -155 -45 Q -135 -55, -100 -50 Q -40 -40, 15 -15 Z"/>
+
+        <!-- Nordické vzory v křídle - keltský uzel -->
+        <g opacity="0.4" stroke="currentColor" stroke-width="3" fill="none">
+          <!-- Vertikální čáry -->
+          <path d="M -120 -55 L -115 -45"/>
+          <path d="M -105 -57 L -100 -47"/>
+          <path d="M -90 -58 L -85 -48"/>
+          <path d="M -75 -57 L -70 -47"/>
+          <path d="M -60 -55 L -55 -45"/>
+          <path d="M -45 -52 L -40 -42"/>
+
+          <!-- Diagonální křížení - nordický vzor -->
+          <path d="M -125 -52 L -115 -50 L -120 -45"/>
+          <path d="M -110 -54 L -100 -52 L -105 -47"/>
+          <path d="M -95 -55 L -85 -53 L -90 -48"/>
+          <path d="M -80 -54 L -70 -52 L -75 -47"/>
+          <path d="M -65 -52 L -55 -50 L -60 -45"/>
+
+          <!-- Vodorovné spojnice -->
+          <path d="M -130 -50 L -40 -42"/>
+          <path d="M -125 -48 L -45 -40"/>
+        </g>
+
+        <!-- Spodní peří -->
+        <path d="M 15 -10 Q -20 -25, -80 -35 Q -110 -40, -130 -30 L -125 -25 Q -105 -32, -75 -28 Q -25 -20, 12 -5 Z" opacity="0.85"/>
+
+        <!-- Nejspodnější peří -->
+        <path d="M 10 -5 Q -15 -15, -60 -20 Q -85 -23, -100 -15 L -95 -12 Q -80 -18, -58 -15 Q -20 -10, 8 0 Z" opacity="0.7"/>
+      </g>
+
+      <!-- Pravé křídlo - horní část s nordickými vzory -->
+      <g>
+        <!-- Hlavní křídlo -->
+        <path d="M 60 -20 Q 90 -30, 140 -25 Q 170 -20, 185 -10 L 180 -5 Q 165 -12, 138 -18 Q 95 -22, 55 -15 Z"/>
+
+        <!-- Nordické vzory v křídle -->
+        <g opacity="0.4" stroke="currentColor" stroke-width="3" fill="none">
+          <!-- Vertikální čáry -->
+          <path d="M 100 -27 L 105 -20"/>
+          <path d="M 115 -26 L 120 -19"/>
+          <path d="M 130 -24 L 135 -17"/>
+          <path d="M 145 -21 L 150 -14"/>
+          <path d="M 160 -18 L 165 -11"/>
+
+          <!-- Diagonální křížení -->
+          <path d="M 95 -25 L 105 -23 L 100 -18"/>
+          <path d="M 110 -24 L 120 -22 L 115 -17"/>
+          <path d="M 125 -22 L 135 -20 L 130 -15"/>
+          <path d="M 140 -19 L 150 -17 L 145 -12"/>
+
+          <!-- Vodorovné spojnice -->
+          <path d="M 95 -23 L 165 -13"/>
+          <path d="M 100 -21 L 160 -11"/>
+        </g>
+
+        <!-- Spodní peří -->
+        <path d="M 55 -10 Q 80 -15, 120 -12 Q 145 -10, 160 -3 L 155 0 Q 140 -6, 118 -8 Q 85 -10, 52 -5 Z" opacity="0.85"/>
+
+        <!-- Nejspodnější peří -->
+        <path d="M 50 -5 Q 70 -8, 100 -5 Q 120 -3, 130 3 L 125 6 Q 115 0, 98 -2 Q 75 -4, 48 0 Z" opacity="0.7"/>
+      </g>
+
+      <!-- Ocas -->
+      <path d="M 25 25 L 15 60 L 20 55 L 25 65 L 30 58 L 35 70 L 40 62 L 48 75 L 45 25 Z"/>
+
+      <!-- Nohy/spáry -->
+      <g stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round">
+        <path d="M 35 30 L 35 42 M 32 42 L 38 42"/>
+        <path d="M 30 42 L 28 48"/>
+        <path d="M 35 42 L 35 50"/>
+        <path d="M 38 42 L 42 48"/>
+
+        <path d="M 50 30 L 52 42 M 49 42 L 55 42"/>
+        <path d="M 49 42 L 45 48"/>
+        <path d="M 52 42 L 52 50"/>
+        <path d="M 55 42 L 59 48"/>
+      </g>
+    </g>
+  </g>
+</svg>

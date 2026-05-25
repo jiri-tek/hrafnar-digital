@@ -1,0 +1,17 @@
+<svg class="hd-mark" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <!-- Hrafnar Digital mark: single stylized raven head + eye + signal mark.
+       Deliberately different from the Guides twin-raven sigil; same family,
+       distinct identity. Off-white stroke, recolorable via currentColor. -->
+  <g stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- raven head silhouette -->
+    <path d="M14 44 C14 26 26 16 40 16 C46 16 52 19 56 24 L46 30 C49 33 50 38 48 43 C44 51 34 54 26 52 C19 50 14 48 14 44 Z"/>
+    <!-- beak -->
+    <path d="M14 44 L6 47 L13 38"/>
+    <!-- eye (the Insight motif) -->
+    <circle cx="37" cy="30" r="2.4" fill="currentColor" stroke="none"/>
+    <!-- three signal strokes — the data / performance motif -->
+    <path d="M30 58 L34 58"/>
+    <path d="M37 58 L45 58"/>
+    <path d="M48 58 L58 58"/>
+  </g>
+</svg>

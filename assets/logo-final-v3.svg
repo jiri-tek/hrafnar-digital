@@ -1,0 +1,30 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ultra čistá silueta havrana - sedící, směřující nahoru -->
+
+  <g fill="currentColor">
+    <!-- Tělo -->
+    <ellipse cx="32" cy="38" rx="10" ry="14"/>
+
+    <!-- Hlava -->
+    <circle cx="32" cy="20" r="7"/>
+
+    <!-- Zobák směřující nahoru -->
+    <path d="M 32 14 L 30 10 L 34 10 Z"/>
+
+    <!-- Křídla složená podél těla -->
+    <path d="M 24 32 Q 18 34, 16 38 Q 16 40, 20 40 Q 24 38, 26 36 Z" opacity="0.3"/>
+    <path d="M 40 32 Q 46 34, 48 38 Q 48 40, 44 40 Q 40 38, 38 36 Z" opacity="0.3"/>
+
+    <!-- Ocas -->
+    <path d="M 28 50 L 24 56 L 28 54 L 32 56 L 36 54 L 40 56 L 36 50 Z" opacity="0.85"/>
+
+    <!-- Oko -->
+    <circle cx="32" cy="20" r="1.5" fill="#F2EFE9"/>
+  </g>
+
+  <!-- Jednoduchá runa pod havrany (Tiwaz - směr, vůle) -->
+  <g stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity="0.4">
+    <path d="M 32 60 L 32 58"/>
+    <path d="M 28 60 L 32 58 L 36 60"/>
+  </g>
+</svg>

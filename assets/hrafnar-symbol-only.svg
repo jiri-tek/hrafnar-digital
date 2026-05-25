@@ -1,0 +1,74 @@
+<svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hrafnar symbol only - pro header/favicon -->
+  <!-- Havran s nordickými vzory v křídlech -->
+
+  <g transform="translate(60, 50)">
+    <!-- Havran symbol -->
+    <g fill="currentColor">
+      <!-- Hlava -->
+      <ellipse cx="15" cy="-8" rx="8" ry="10" transform="rotate(15 15 -8)"/>
+
+      <!-- Zobák -->
+      <path d="M 22 -10 L 30 -12 L 28 -7 Z"/>
+
+      <!-- Oko -->
+      <circle cx="17" cy="-10" r="1.5" fill="#F2EFE9"/>
+
+      <!-- Tělo -->
+      <ellipse cx="0" cy="5" rx="12" ry="15"/>
+
+      <!-- Levé křídlo s nordickým vzorem -->
+      <g>
+        <!-- Základní tvar křídla -->
+        <path d="M -6 0 Q -28 -6, -48 -3 Q -62 0, -60 6 Q -56 8, -42 7 Q -24 6, -8 8 Z"/>
+
+        <!-- Nordický vzor -->
+        <g opacity="0.35">
+          <path d="M -45 2 L -32 2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+          <path d="M -45 4 L -32 4" stroke="currentColor" stroke-width="1.5" fill="none"/>
+
+          <!-- Křížení -->
+          <path d="M -42 0 L -39 6" stroke="currentColor" stroke-width="1.2" fill="none"/>
+          <path d="M -37 0 L -34 6" stroke="currentColor" stroke-width="1.2" fill="none"/>
+          <path d="M -39 0 L -42 6" stroke="currentColor" stroke-width="1.2" fill="none"/>
+          <path d="M -34 0 L -37 6" stroke="currentColor" stroke-width="1.2" fill="none"/>
+
+          <!-- Peří -->
+          <path d="M -52 3 L -48 3" stroke="currentColor" stroke-width="1.5" fill="none"/>
+          <path d="M -55 4 L -50 4" stroke="currentColor" stroke-width="1.5" fill="none"/>
+        </g>
+      </g>
+
+      <!-- Pravé křídlo s nordickým vzorem -->
+      <g>
+        <!-- Základní tvar křídla -->
+        <path d="M 6 0 Q 28 -6, 48 -3 Q 62 0, 60 6 Q 56 8, 42 7 Q 24 6, 8 8 Z"/>
+
+        <!-- Nordický vzor -->
+        <g opacity="0.35">
+          <path d="M 32 2 L 45 2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+          <path d="M 32 4 L 45 4" stroke="currentColor" stroke-width="1.5" fill="none"/>
+
+          <!-- Křížení -->
+          <path d="M 34 0 L 37 6" stroke="currentColor" stroke-width="1.2" fill="none"/>
+          <path d="M 39 0 L 42 6" stroke="currentColor" stroke-width="1.2" fill="none"/>
+          <path d="M 37 0 L 34 6" stroke="currentColor" stroke-width="1.2" fill="none"/>
+          <path d="M 42 0 L 39 6" stroke="currentColor" stroke-width="1.2" fill="none"/>
+
+          <!-- Peří -->
+          <path d="M 48 3 L 52 3" stroke="currentColor" stroke-width="1.5" fill="none"/>
+          <path d="M 50 4 L 55 4" stroke="currentColor" stroke-width="1.5" fill="none"/>
+        </g>
+      </g>
+
+      <!-- Ocas -->
+      <path d="M -7 20 L -12 30 L -8 27 L -4 32 L 0 27 L 4 32 L 8 27 L 12 30 L 7 20 Z"/>
+
+      <!-- Nohy -->
+      <g stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round">
+        <path d="M -6 20 L -6 24 M -7 24 L -5 24"/>
+        <path d="M 6 20 L 6 24 M 5 24 L 7 24"/>
+      </g>
+    </g>
+  </g>
+</svg>

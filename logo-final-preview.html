@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hrafnar Digital - Finální čisté logo varianty</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0F1820;
+      color: #F2EFE9;
+      font-family: system-ui, sans-serif;
+      padding: 40px 20px;
+    }
+    .container { max-width: 1400px; margin: 0 auto; }
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 2.2rem;
+    }
+    .subtitle {
+      text-align: center;
+      color: #8B97A1;
+      margin-bottom: 50px;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+    .variant {
+      background: #16222B;
+      border: 2px solid #243038;
+      border-radius: 8px;
+      padding: 30px;
+      text-align: center;
+      cursor: pointer;
+      transition: .25s;
+    }
+    .variant:hover {
+      border-color: #FC4D02;
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(252, 77, 2, 0.15);
+    }
+    .variant h2 {
+      margin-bottom: 8px;
+      font-size: 1.2rem;
+      color: #F2EFE9;
+    }
+    .variant .desc {
+      color: #8B97A1;
+      font-size: 0.88rem;
+      margin-bottom: 24px;
+      line-height: 1.4;
+    }
+    .logo-display {
+      background: #0F1820;
+      border: 1px solid #243038;
+      border-radius: 6px;
+      padding: 50px;
+      margin-bottom: 20px;
+    }
+    .logo-display svg {
+      width: 140px;
+      height: 140px;
+      margin: 0 auto;
+      display: block;
+      color: #F2EFE9;
+    }
+    .sizes {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .size-item {
+      background: #0F1820;
+      border: 1px solid #243038;
+      border-radius: 4px;
+      padding: 14px;
+    }
+    .size-item svg {
+      color: #F2EFE9;
+      display: block;
+    }
+    .on-orange {
+      background: #FC4D02;
+    }
+    .on-orange svg {
+      color: #fff;
+    }
+    .label {
+      font-size: 0.7rem;
+      color: #8B97A1;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 14px;
+    }
+    .note {
+      text-align: center;
+      color: #8B97A1;
+      font-size: 0.9rem;
+      margin-top: 40px;
+      padding: 20px;
+      background: #16222B;
+      border-radius: 6px;
+    }
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Čisté logo s havrany a runami</h1>
+    <p class="subtitle">Elegantní, profesionální, nordické. Siluety havranů kombinované s runickými symboly.<br>Klikni na variantu, která se ti líbí.</p>
+
+    <div class="grid">
+      <!-- V1: Havran v kruhu s runami -->
+      <div class="variant" onclick="alert('Vybraná varianta: V1 - Havran v kruhu')">
+        <h2>V1: Havran v kruhu</h2>
+        <p class="desc">Létající havran v kruhu s runami po 4 světových stranách. Kompletní, vyvážený.</p>
+
+        <div class="logo-display">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="1.5" opacity="0.25"/>
+            <g fill="currentColor">
+              <ellipse cx="32" cy="30" rx="4" ry="7"/>
+              <path d="M 28 28 Q 18 24, 12 28 Q 10 30, 14 32 Q 22 32, 28 32 Z"/>
+              <path d="M 36 28 Q 46 24, 52 28 Q 54 30, 50 32 Q 42 32, 36 32 Z"/>
+              <circle cx="32" cy="24" r="3"/>
+              <path d="M 34 23 L 37 22 L 35 24 Z"/>
+              <path d="M 30 36 L 28 42 L 30 40 L 32 42 L 34 40 L 36 42 L 34 36 Z"/>
+            </g>
+            <g stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.6">
+              <path d="M 32 6 L 32 10"/>
+              <path d="M 30 7 L 32 6 L 34 7"/>
+              <path d="M 58 32 L 54 32"/>
+              <path d="M 57 30 L 58 32 L 57 34"/>
+              <path d="M 32 58 L 32 54"/>
+              <path d="M 6 32 L 10 32"/>
+            </g>
+          </svg>
+        </div>
+
+        <div class="label">Velikosti</div>
+        <div class="sizes">
+          <div class="size-item"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:70px;height:70px"><circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="1.5" opacity="0.25"/><g fill="currentColor"><ellipse cx="32" cy="30" rx="4" ry="7"/><path d="M 28 28 Q 18 24, 12 28 Q 10 30, 14 32 Q 22 32, 28 32 Z"/><path d="M 36 28 Q 46 24, 52 28 Q 54 30, 50 32 Q 42 32, 36 32 Z"/><circle cx="32" cy="24" r="3"/><path d="M 34 23 L 37 22 L 35 24 Z"/><path d="M 30 36 L 28 42 L 30 40 L 32 42 L 34 40 L 36 42 L 34 36 Z"/></g><g stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.6"><path d="M 32 6 L 32 10"/><path d="M 30 7 L 32 6 L 34 7"/><path d="M 58 32 L 54 32"/><path d="M 57 30 L 58 32 L 57 34"/><path d="M 32 58 L 32 54"/><path d="M 6 32 L 10 32"/></g></svg></div>
+          <div class="size-item"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:36px;height:36px"><circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="1.5" opacity="0.25"/><g fill="currentColor"><ellipse cx="32" cy="30" rx="4" ry="7"/><path d="M 28 28 Q 18 24, 12 28 Q 10 30, 14 32 Q 22 32, 28 32 Z"/><path d="M 36 28 Q 46 24, 52 28 Q 54 30, 50 32 Q 42 32, 36 32 Z"/><circle cx="32" cy="24" r="3"/><path d="M 34 23 L 37 22 L 35 24 Z"/><path d="M 30 36 L 28 42 L 30 40 L 32 42 L 34 40 L 36 42 L 34 36 Z"/></g><g stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.6"><path d="M 32 6 L 32 10"/><path d="M 30 7 L 32 6 L 34 7"/><path d="M 58 32 L 54 32"/><path d="M 57 30 L 58 32 L 57 34"/><path d="M 32 58 L 32 54"/><path d="M 6 32 L 10 32"/></g></svg></div>
+          <div class="size-item on-orange"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:28px;height:28px"><circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="1.5" opacity="0.25"/><g fill="currentColor"><ellipse cx="32" cy="30" rx="4" ry="7"/><path d="M 28 28 Q 18 24, 12 28 Q 10 30, 14 32 Q 22 32, 28 32 Z"/><path d="M 36 28 Q 46 24, 52 28 Q 54 30, 50 32 Q 42 32, 36 32 Z"/><circle cx="32" cy="24" r="3"/><path d="M 34 23 L 37 22 L 35 24 Z"/><path d="M 30 36 L 28 42 L 30 40 L 32 42 L 34 40 L 36 42 L 34 36 Z"/></g><g stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.6"><path d="M 32 6 L 32 10"/><path d="M 30 7 L 32 6 L 34 7"/><path d="M 58 32 L 54 32"/><path d="M 57 30 L 58 32 L 57 34"/><path d="M 32 58 L 32 54"/><path d="M 6 32 L 10 32"/></g></svg></div>
+        </div>
+      </div>
+
+      <!-- V2: Havran z profilu + runa -->
+      <div class="variant" onclick="alert('Vybraná varianta: V2 - Profil s runou')">
+        <h2>V2: Profil s runou</h2>
+        <p class="desc">Havran z profilu s vertikální runickou značkou vzadu. Elegantní, směrový.</p>
+
+        <div class="logo-display">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity="0.2">
+              <path d="M 32 12 L 32 52"/>
+              <path d="M 32 16 L 28 22"/>
+              <path d="M 32 16 L 36 22"/>
+            </g>
+            <g fill="currentColor">
+              <circle cx="42" cy="24" r="5"/>
+              <path d="M 46 23 L 52 20 L 50 25 Z"/>
+              <path d="M 40 28 Q 36 30, 34 34 Q 32 38, 32 42 Q 32 46, 36 48"/>
+              <path d="M 36 34 L 24 36 L 26 38 L 36 40 Z" opacity="0.85"/>
+              <path d="M 36 48 L 32 54 L 34 52 L 36 54 L 38 52 Z" opacity="0.9"/>
+              <circle cx="43" cy="24" r="1.2" fill="#F2EFE9"/>
+            </g>
+            <g stroke="currentColor" stroke-width="1.8" stroke-linecap="round" opacity="0.5">
+              <path d="M 26 58 L 38 58"/>
+              <path d="M 28 56 L 28 60"/>
+              <path d="M 36 56 L 36 60"/>
+            </g>
+          </svg>
+        </div>
+
+        <div class="label">Velikosti</div>
+        <div class="sizes">
+          <div class="size-item"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:70px;height:70px"><g stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity="0.2"><path d="M 32 12 L 32 52"/><path d="M 32 16 L 28 22"/><path d="M 32 16 L 36 22"/></g><g fill="currentColor"><circle cx="42" cy="24" r="5"/><path d="M 46 23 L 52 20 L 50 25 Z"/><path d="M 40 28 Q 36 30, 34 34 Q 32 38, 32 42 Q 32 46, 36 48"/><path d="M 36 34 L 24 36 L 26 38 L 36 40 Z" opacity="0.85"/><path d="M 36 48 L 32 54 L 34 52 L 36 54 L 38 52 Z" opacity="0.9"/><circle cx="43" cy="24" r="1.2" fill="#F2EFE9"/></g><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round" opacity="0.5"><path d="M 26 58 L 38 58"/><path d="M 28 56 L 28 60"/><path d="M 36 56 L 36 60"/></g></svg></div>
+          <div class="size-item"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:36px;height:36px"><g stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity="0.2"><path d="M 32 12 L 32 52"/><path d="M 32 16 L 28 22"/><path d="M 32 16 L 36 22"/></g><g fill="currentColor"><circle cx="42" cy="24" r="5"/><path d="M 46 23 L 52 20 L 50 25 Z"/><path d="M 40 28 Q 36 30, 34 34 Q 32 38, 32 42 Q 32 46, 36 48"/><path d="M 36 34 L 24 36 L 26 38 L 36 40 Z" opacity="0.85"/><path d="M 36 48 L 32 54 L 34 52 L 36 54 L 38 52 Z" opacity="0.9"/><circle cx="43" cy="24" r="1.2" fill="#F2EFE9"/></g><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round" opacity="0.5"><path d="M 26 58 L 38 58"/><path d="M 28 56 L 28 60"/><path d="M 36 56 L 36 60"/></g></svg></div>
+          <div class="size-item on-orange"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:28px;height:28px"><g stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity="0.2"><path d="M 32 12 L 32 52"/><path d="M 32 16 L 28 22"/><path d="M 32 16 L 36 22"/></g><g fill="currentColor"><circle cx="42" cy="24" r="5"/><path d="M 46 23 L 52 20 L 50 25 Z"/><path d="M 40 28 Q 36 30, 34 34 Q 32 38, 32 42 Q 32 46, 36 48"/><path d="M 36 34 L 24 36 L 26 38 L 36 40 Z" opacity="0.85"/><path d="M 36 48 L 32 54 L 34 52 L 36 54 L 38 52 Z" opacity="0.9"/><circle cx="43" cy="24" r="1.2" fill="#F2EFE9"/></g><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round" opacity="0.5"><path d="M 26 58 L 38 58"/><path d="M 28 56 L 28 60"/><path d="M 36 56 L 36 60"/></g></svg></div>
+        </div>
+      </div>
+
+      <!-- V3: Sedící havran -->
+      <div class="variant" onclick="alert('Vybraná varianta: V3 - Sedící nahoru')">
+        <h2>V3: Sedící, směr nahoru</h2>
+        <p class="desc">Havran sedící, směřující nahoru s runou pod ním. Hrdý, vertikální.</p>
+
+        <div class="logo-display">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g fill="currentColor">
+              <ellipse cx="32" cy="38" rx="10" ry="14"/>
+              <circle cx="32" cy="20" r="7"/>
+              <path d="M 32 14 L 30 10 L 34 10 Z"/>
+              <path d="M 24 32 Q 18 34, 16 38 Q 16 40, 20 40 Q 24 38, 26 36 Z" opacity="0.3"/>
+              <path d="M 40 32 Q 46 34, 48 38 Q 48 40, 44 40 Q 40 38, 38 36 Z" opacity="0.3"/>
+              <path d="M 28 50 L 24 56 L 28 54 L 32 56 L 36 54 L 40 56 L 36 50 Z" opacity="0.85"/>
+              <circle cx="32" cy="20" r="1.5" fill="#F2EFE9"/>
+            </g>
+            <g stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity="0.4">
+              <path d="M 32 60 L 32 58"/>
+              <path d="M 28 60 L 32 58 L 36 60"/>
+            </g>
+          </svg>
+        </div>
+
+        <div class="label">Velikosti</div>
+        <div class="sizes">
+          <div class="size-item"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:70px;height:70px"><g fill="currentColor"><ellipse cx="32" cy="38" rx="10" ry="14"/><circle cx="32" cy="20" r="7"/><path d="M 32 14 L 30 10 L 34 10 Z"/><path d="M 24 32 Q 18 34, 16 38 Q 16 40, 20 40 Q 24 38, 26 36 Z" opacity="0.3"/><path d="M 40 32 Q 46 34, 48 38 Q 48 40, 44 40 Q 40 38, 38 36 Z" opacity="0.3"/><path d="M 28 50 L 24 56 L 28 54 L 32 56 L 36 54 L 40 56 L 36 50 Z" opacity="0.85"/><circle cx="32" cy="20" r="1.5" fill="#F2EFE9"/></g><g stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity="0.4"><path d="M 32 60 L 32 58"/><path d="M 28 60 L 32 58 L 36 60"/></g></svg></div>
+          <div class="size-item"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:36px;height:36px"><g fill="currentColor"><ellipse cx="32" cy="38" rx="10" ry="14"/><circle cx="32" cy="20" r="7"/><path d="M 32 14 L 30 10 L 34 10 Z"/><path d="M 24 32 Q 18 34, 16 38 Q 16 40, 20 40 Q 24 38, 26 36 Z" opacity="0.3"/><path d="M 40 32 Q 46 34, 48 38 Q 48 40, 44 40 Q 40 38, 38 36 Z" opacity="0.3"/><path d="M 28 50 L 24 56 L 28 54 L 32 56 L 36 54 L 40 56 L 36 50 Z" opacity="0.85"/><circle cx="32" cy="20" r="1.5" fill="#F2EFE9"/></g><g stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity="0.4"><path d="M 32 60 L 32 58"/><path d="M 28 60 L 32 58 L 36 60"/></g></svg></div>
+          <div class="size-item on-orange"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:28px;height:28px"><g fill="currentColor"><ellipse cx="32" cy="38" rx="10" ry="14"/><circle cx="32" cy="20" r="7"/><path d="M 32 14 L 30 10 L 34 10 Z"/><path d="M 24 32 Q 18 34, 16 38 Q 16 40, 20 40 Q 24 38, 26 36 Z" opacity="0.3"/><path d="M 40 32 Q 46 34, 48 38 Q 48 40, 44 40 Q 40 38, 38 36 Z" opacity="0.3"/><path d="M 28 50 L 24 56 L 28 54 L 32 56 L 36 54 L 40 56 L 36 50 Z" opacity="0.85"/><circle cx="32" cy="20" r="1.5" fill="#F2EFE9"/></g><g stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity="0.4"><path d="M 32 60 L 32 58"/><path d="M 28 60 L 32 58 L 36 60"/></g></svg></div>
+        </div>
+      </div>
+
+      <!-- V4: Obrys + Vegvísir -->
+      <div class="variant" onclick="alert('Vybraná varianta: V4 - Obrys + kompas')">
+        <h2>V4: Obrys + kompas</h2>
+        <p class="desc">Minimalistický obrys havrana s kompasovými značkami. Navigační, nordický.</p>
+
+        <div class="logo-display">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+              <circle cx="40" cy="24" r="6"/>
+              <path d="M 45 22 L 50 20"/>
+              <path d="M 38 30 Q 34 32, 32 36 Q 30 42, 32 46"/>
+              <path d="M 34 34 Q 26 36, 20 38"/>
+              <path d="M 33 38 Q 24 40, 18 42"/>
+              <path d="M 32 46 L 28 52"/>
+              <path d="M 32 46 L 34 52"/>
+              <circle cx="41" cy="24" r="1.2" fill="currentColor" stroke="none"/>
+            </g>
+            <g stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity="0.35">
+              <path d="M 32 8 L 32 14"/>
+              <path d="M 50 14 L 46 18"/>
+              <path d="M 56 32 L 50 32"/>
+              <path d="M 50 50 L 46 46"/>
+              <path d="M 32 56 L 32 50"/>
+              <path d="M 14 50 L 18 46"/>
+              <path d="M 8 32 L 14 32"/>
+              <path d="M 14 14 L 18 18"/>
+              <g stroke-width="2.2" opacity="1">
+                <path d="M 29 10 L 32 8 L 35 10"/>
+              </g>
+            </g>
+          </svg>
+        </div>
+
+        <div class="label">Velikosti</div>
+        <div class="sizes">
+          <div class="size-item"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:70px;height:70px"><g stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"><circle cx="40" cy="24" r="6"/><path d="M 45 22 L 50 20"/><path d="M 38 30 Q 34 32, 32 36 Q 30 42, 32 46"/><path d="M 34 34 Q 26 36, 20 38"/><path d="M 33 38 Q 24 40, 18 42"/><path d="M 32 46 L 28 52"/><path d="M 32 46 L 34 52"/><circle cx="41" cy="24" r="1.2" fill="currentColor" stroke="none"/></g><g stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity="0.35"><path d="M 32 8 L 32 14"/><path d="M 50 14 L 46 18"/><path d="M 56 32 L 50 32"/><path d="M 50 50 L 46 46"/><path d="M 32 56 L 32 50"/><path d="M 14 50 L 18 46"/><path d="M 8 32 L 14 32"/><path d="M 14 14 L 18 18"/><g stroke-width="2.2" opacity="1"><path d="M 29 10 L 32 8 L 35 10"/></g></g></svg></div>
+          <div class="size-item"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:36px;height:36px"><g stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"><circle cx="40" cy="24" r="6"/><path d="M 45 22 L 50 20"/><path d="M 38 30 Q 34 32, 32 36 Q 30 42, 32 46"/><path d="M 34 34 Q 26 36, 20 38"/><path d="M 33 38 Q 24 40, 18 42"/><path d="M 32 46 L 28 52"/><path d="M 32 46 L 34 52"/><circle cx="41" cy="24" r="1.2" fill="currentColor" stroke="none"/></g><g stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity="0.35"><path d="M 32 8 L 32 14"/><path d="M 50 14 L 46 18"/><path d="M 56 32 L 50 32"/><path d="M 50 50 L 46 46"/><path d="M 32 56 L 32 50"/><path d="M 14 50 L 18 46"/><path d="M 8 32 L 14 32"/><path d="M 14 14 L 18 18"/><g stroke-width="2.2" opacity="1"><path d="M 29 10 L 32 8 L 35 10"/></g></g></svg></div>
+          <div class="size-item on-orange"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:28px;height:28px"><g stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"><circle cx="40" cy="24" r="6"/><path d="M 45 22 L 50 20"/><path d="M 38 30 Q 34 32, 32 36 Q 30 42, 32 46"/><path d="M 34 34 Q 26 36, 20 38"/><path d="M 33 38 Q 24 40, 18 42"/><path d="M 32 46 L 28 52"/><path d="M 32 46 L 34 52"/><circle cx="41" cy="24" r="1.2" fill="currentColor" stroke="none"/></g><g stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity="0.35"><path d="M 32 8 L 32 14"/><path d="M 50 14 L 46 18"/><path d="M 56 32 L 50 32"/><path d="M 50 50 L 46 46"/><path d="M 32 56 L 32 50"/><path d="M 14 50 L 18 46"/><path d="M 8 32 L 14 32"/><path d="M 14 14 L 18 18"/><g stroke-width="2.2" opacity="1"><path d="M 29 10 L 32 8 L 35 10"/></g></g></svg></div>
+        </div>
+      </div>
+
+      <!-- V5: Kombinace fill/stroke -->
+      <div class="variant" onclick="alert('Vybraná varianta: V5 - Mix plná/linka')">
+        <h2>V5: Mix plná/linka</h2>
+        <p class="desc">Kombinace plných tvarů a linií s runou na hrudi. Elegantní, bohatý.</p>
+
+        <div class="logo-display">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g>
+              <ellipse cx="32" cy="34" rx="8" ry="12" fill="currentColor"/>
+              <circle cx="32" cy="18" r="6" fill="currentColor"/>
+              <path d="M 35 16 L 40 14 L 37 18 Z" fill="currentColor"/>
+              <g stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7">
+                <path d="M 26 30 Q 18 28, 12 32"/>
+                <path d="M 38 30 Q 46 28, 52 32"/>
+              </g>
+              <path d="M 28 44 L 26 52 L 28 50 L 32 52 L 36 50 L 38 52 L 36 44 Z" fill="currentColor" opacity="0.85"/>
+              <circle cx="33" cy="18" r="1.4" fill="#F2EFE9"/>
+              <g stroke="#F2EFE9" stroke-width="1.5" stroke-linecap="round" opacity="0.6">
+                <path d="M 32 32 L 32 36"/>
+                <path d="M 32 32 L 35 33"/>
+                <path d="M 32 34 L 35 35"/>
+              </g>
+            </g>
+          </svg>
+        </div>
+
+        <div class="label">Velikosti</div>
+        <div class="sizes">
+          <div class="size-item"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:70px;height:70px"><g><ellipse cx="32" cy="34" rx="8" ry="12" fill="currentColor"/><circle cx="32" cy="18" r="6" fill="currentColor"/><path d="M 35 16 L 40 14 L 37 18 Z" fill="currentColor"/><g stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"><path d="M 26 30 Q 18 28, 12 32"/><path d="M 38 30 Q 46 28, 52 32"/></g><path d="M 28 44 L 26 52 L 28 50 L 32 52 L 36 50 L 38 52 L 36 44 Z" fill="currentColor" opacity="0.85"/><circle cx="33" cy="18" r="1.4" fill="#F2EFE9"/><g stroke="#F2EFE9" stroke-width="1.5" stroke-linecap="round" opacity="0.6"><path d="M 32 32 L 32 36"/><path d="M 32 32 L 35 33"/><path d="M 32 34 L 35 35"/></g></g></svg></div>
+          <div class="size-item"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:36px;height:36px"><g><ellipse cx="32" cy="34" rx="8" ry="12" fill="currentColor"/><circle cx="32" cy="18" r="6" fill="currentColor"/><path d="M 35 16 L 40 14 L 37 18 Z" fill="currentColor"/><g stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"><path d="M 26 30 Q 18 28, 12 32"/><path d="M 38 30 Q 46 28, 52 32"/></g><path d="M 28 44 L 26 52 L 28 50 L 32 52 L 36 50 L 38 52 L 36 44 Z" fill="currentColor" opacity="0.85"/><circle cx="33" cy="18" r="1.4" fill="#F2EFE9"/><g stroke="#F2EFE9" stroke-width="1.5" stroke-linecap="round" opacity="0.6"><path d="M 32 32 L 32 36"/><path d="M 32 32 L 35 33"/><path d="M 32 34 L 35 35"/></g></g></svg></div>
+          <div class="size-item on-orange"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:28px;height:28px"><g><ellipse cx="32" cy="34" rx="8" ry="12" fill="currentColor"/><circle cx="32" cy="18" r="6" fill="currentColor"/><path d="M 35 16 L 40 14 L 37 18 Z" fill="currentColor"/><g stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"><path d="M 26 30 Q 18 28, 12 32"/><path d="M 38 30 Q 46 28, 52 32"/></g><path d="M 28 44 L 26 52 L 28 50 L 32 52 L 36 50 L 38 52 L 36 44 Z" fill="currentColor" opacity="0.85"/><circle cx="33" cy="18" r="1.4" fill="#F2EFE9"/><g stroke="#F2EFE9" stroke-width="1.5" stroke-linecap="round" opacity="0.6"><path d="M 32 32 L 32 36"/><path d="M 32 32 L 35 33"/><path d="M 32 34 L 35 35"/></g></g></svg></div>
+        </div>
+      </div>
+
+      <!-- V6: Super čistý -->
+      <div class="variant" onclick="alert('Vybraná varianta: V6 - Super čistý')">
+        <h2>V6: Super čistý</h2>
+        <p class="desc">Základní geometrické tvary - kruhy, elipsy. Maximální jednoduchost.</p>
+
+        <div class="logo-display">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g fill="currentColor">
+              <circle cx="32" cy="22" r="7"/>
+              <path d="M 38 20 L 44 18 L 40 23 Z"/>
+              <ellipse cx="32" cy="38" rx="9" ry="13"/>
+              <ellipse cx="20" cy="34" rx="8" ry="4" opacity="0.5" transform="rotate(-20 20 34)"/>
+              <ellipse cx="44" cy="34" rx="8" ry="4" opacity="0.5" transform="rotate(20 44 34)"/>
+              <path d="M 28 48 L 24 56 L 32 52 L 40 56 L 36 48 Z" opacity="0.75"/>
+              <circle cx="34" cy="22" r="1.5" fill="#F2EFE9"/>
+            </g>
+            <g stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.35">
+              <path d="M 24 60 L 24 58"/>
+              <path d="M 32 60 L 32 56"/>
+              <path d="M 40 60 L 40 58"/>
+            </g>
+          </svg>
+        </div>
+
+        <div class="label">Velikosti</div>
+        <div class="sizes">
+          <div class="size-item"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:70px;height:70px"><g fill="currentColor"><circle cx="32" cy="22" r="7"/><path d="M 38 20 L 44 18 L 40 23 Z"/><ellipse cx="32" cy="38" rx="9" ry="13"/><ellipse cx="20" cy="34" rx="8" ry="4" opacity="0.5" transform="rotate(-20 20 34)"/><ellipse cx="44" cy="34" rx="8" ry="4" opacity="0.5" transform="rotate(20 44 34)"/><path d="M 28 48 L 24 56 L 32 52 L 40 56 L 36 48 Z" opacity="0.75"/><circle cx="34" cy="22" r="1.5" fill="#F2EFE9"/></g><g stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.35"><path d="M 24 60 L 24 58"/><path d="M 32 60 L 32 56"/><path d="M 40 60 L 40 58"/></g></svg></div>
+          <div class="size-item"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:36px;height:36px"><g fill="currentColor"><circle cx="32" cy="22" r="7"/><path d="M 38 20 L 44 18 L 40 23 Z"/><ellipse cx="32" cy="38" rx="9" ry="13"/><ellipse cx="20" cy="34" rx="8" ry="4" opacity="0.5" transform="rotate(-20 20 34)"/><ellipse cx="44" cy="34" rx="8" ry="4" opacity="0.5" transform="rotate(20 44 34)"/><path d="M 28 48 L 24 56 L 32 52 L 40 56 L 36 48 Z" opacity="0.75"/><circle cx="34" cy="22" r="1.5" fill="#F2EFE9"/></g><g stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.35"><path d="M 24 60 L 24 58"/><path d="M 32 60 L 32 56"/><path d="M 40 60 L 40 58"/></g></svg></div>
+          <div class="size-item on-orange"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:28px;height:28px"><g fill="currentColor"><circle cx="32" cy="22" r="7"/><path d="M 38 20 L 44 18 L 40 23 Z"/><ellipse cx="32" cy="38" rx="9" ry="13"/><ellipse cx="20" cy="34" rx="8" ry="4" opacity="0.5" transform="rotate(-20 20 34)"/><ellipse cx="44" cy="34" rx="8" ry="4" opacity="0.5" transform="rotate(20 44 34)"/><path d="M 28 48 L 24 56 L 32 52 L 40 56 L 36 48 Z" opacity="0.75"/><circle cx="34" cy="22" r="1.5" fill="#F2EFE9"/></g><g stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.35"><path d="M 24 60 L 24 58"/><path d="M 32 60 L 32 56"/><path d="M 40 60 L 40 58"/></g></svg></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="note">
+      💡 Všechny varianty jsou SVG - škálovatelné do jakékoliv velikosti bez ztráty kvality.<br>
+      Každé logo funguje skvěle na světlém i tmavém pozadí.
+    </div>
+  </div>
+</body>
+</html>
