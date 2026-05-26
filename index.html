@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-IS">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hrafnar Digital — Digital marketing for Icelandic tourism & hospitality</title>
-<meta name="description" content="Hrafnar Digital helps Icelandic guesthouses, hotels, restaurants, tour guides and travel agencies grow online. Websites, Google Ads, Booking, Airbnb and Bókun — handled end to end. International expertise, transparent pricing.">
+<title>Digital Marketing for Iceland Hotels, Guesthouses & Tour Operators | Hrafnar</title>
+<meta name="description" content="Increase direct bookings for your Iceland hotel, guesthouse, or tour company. Expert Google Ads, websites, and Booking.com management. Reduce OTA commissions by 30%. Based in Reykjavík. Free consultation.">
+
+<!-- CANONICAL & HREFLANG -->
+<link rel="canonical" href="https://hrafnar-digital.vercel.app/">
+<link rel="alternate" hreflang="en-IS" href="https://hrafnar-digital.vercel.app/">
+<link rel="alternate" hreflang="x-default" href="https://hrafnar-digital.vercel.app/">
+
+<!-- GEO TARGETING FOR ICELAND -->
+<meta name="geo.region" content="IS">
+<meta name="geo.placename" content="Reykjavík">
+<meta name="geo.position" content="64.126521;-21.817439">
+<meta name="ICBM" content="64.126521, -21.817439">
+
+<!-- OPEN GRAPH META TAGS -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hrafnar-digital.vercel.app/">
+<meta property="og:title" content="Digital Marketing for Icelandic Tourism & Hospitality | Hrafnar">
+<meta property="og:description" content="We help Icelandic guesthouses, hotels, restaurants, and tour operators grow online. Websites, Google Ads, Booking, Airbnb — handled end to end.">
+<meta property="og:image" content="https://hrafnar-digital.vercel.app/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Hrafnar Digital">
+
+<!-- TWITTER CARD META TAGS -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://hrafnar-digital.vercel.app/">
+<meta name="twitter:title" content="Digital Marketing for Icelandic Tourism | Hrafnar">
+<meta name="twitter:description" content="We help Icelandic hotels, guesthouses, and tour operators increase direct bookings and reduce OTA commissions.">
+<meta name="twitter:image" content="https://hrafnar-digital.vercel.app/assets/og-image.jpg">
+
 <link rel="icon" type="image/svg+xml" href="assets/favicon-r.svg">
 <!-- Free fallback fonts (Fraunces ≈ Gascogne Serial display, Hanken Grotesk ≈ Sarvatrik body).
      Replace with licensed @font-face below once font files are available. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 /* ===========================================================
@@ -261,6 +292,15 @@ header.scrolled{background:rgba(15,24,32,.86);backdrop-filter:blur(14px);border-
   color:var(--accent);font-size:14.5px;font-weight:600;border-bottom:1px solid transparent}
 .founder a.li:hover{border-color:var(--accent)}
 
+
+/* ---- faq ---- */
+.faq{background:var(--surface);border-top:1px solid var(--line)}
+.faq-list{display:flex;flex-direction:column;gap:28px;max-width:820px}
+.faq-item{background:var(--bg);border:1px solid var(--line);padding:32px 36px;transition:.3s}
+.faq-item:hover{border-color:var(--accent)}
+.faq-item h3{font-size:1.3rem;margin-bottom:14px;color:var(--text)}
+.faq-item p{color:var(--muted);font-size:15.5px;line-height:1.7}
+
 /* ---- contact ---- */
 .contact{background:var(--surface)}
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
@@ -306,6 +346,147 @@ footer{padding:60px 0 44px;border-top:1px solid var(--line)}
   .q{min-width:100%}
 }
 </style>
+
+<!-- SCHEMA.ORG STRUCTURED DATA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://hrafnar-digital.vercel.app/#organization",
+      "name": "Hrafnar Digital",
+      "url": "https://hrafnar-digital.vercel.app",
+      "logo": "https://hrafnar-digital.vercel.app/assets/favicon-r.svg",
+      "description": "Digital marketing agency specializing in Icelandic tourism and hospitality businesses. We help hotels, guesthouses, restaurants, and tour operators increase direct bookings.",
+      "founder": {
+        "@type": "Person",
+        "name": "Jiří Štaffa",
+        "jobTitle": "Founder & Digital Marketing Specialist",
+        "sameAs": "https://www.linkedin.com/in/jiří-štaffa-33289b215/"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IS",
+        "addressLocality": "Reykjavík"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Iceland"
+      },
+      "serviceType": [
+        "Digital Marketing",
+        "Website Development",
+        "Google Ads Management",
+        "Social Media Marketing",
+        "Booking Platform Management"
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Tourism and Hospitality Businesses in Iceland"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://hrafnar-digital.vercel.app/#service",
+      "name": "Hrafnar Digital - Tourism Marketing Services",
+      "provider": {
+        "@id": "https://hrafnar-digital.vercel.app/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Iceland"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Marketing Services for Icelandic Tourism",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Websites & Landing Pages for Hotels and Guesthouses",
+              "description": "Custom booking websites optimized for direct reservations"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Performance Marketing for Tour Operators",
+              "description": "Google Ads and Meta campaigns for Icelandic tour companies"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Booking Platform Management",
+              "description": "Management of Airbnb, Booking.com, Bókun, and Expedia listings"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://hrafnar-digital.vercel.app/#website",
+      "url": "https://hrafnar-digital.vercel.app",
+      "name": "Hrafnar Digital",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://hrafnar-digital.vercel.app/#organization"
+      }
+    }
+,
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How can I reduce my dependence on Booking.com and Airbnb?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We build direct booking websites optimized for conversions, implement Google Ads campaigns targeting your specific tours or rooms, and optimize your existing OTA profiles to drive traffic to your direct channels. Most clients see 30-40% more direct bookings within 3 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you work with small guesthouses or only large hotels?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We specialize in small to medium-sized Icelandic tourism businesses — guesthouses, boutique hotels, family-run tour operators, and independent restaurants. Our Starter package (€800/month) is designed specifically for businesses with 5-15 rooms or similar scale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What booking platforms do you integrate with?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We work with all major platforms used in Iceland: Booking.com, Airbnb, Bókun, Expedia, FreeToBook, and can integrate custom direct booking engines. We also manage calendar synchronization to prevent overbooking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to see results from Google Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For Icelandic tourism businesses, we typically see first bookings within 7-14 days of launching campaigns. Full optimization takes 60-90 days as we refine targeting for high-season vs. shoulder-season travellers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you only work in Reykjavík or across all of Iceland?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We work with tourism businesses across all of Iceland — from Akureyri in the North to Vík in the South. Our services are 100% remote, and we specialize in promoting destinations along the Ring Road, Golden Circle, and beyond."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -321,6 +502,7 @@ footer{padding:60px 0 44px;border-top:1px solid var(--line)}
       <a href="#principles">Principles</a>
       <a href="#pricing">Pricing</a>
       <a href="#results">Results</a>
+      <a href="#faq">FAQ</a>
       <a href="#founder">Founder</a>
       <a href="#contact" class="btn btn-primary nav-cta">Get a free audit</a>
     </div>
@@ -332,7 +514,7 @@ footer{padding:60px 0 44px;border-top:1px solid var(--line)}
 <section class="hero" id="top">
   <div class="hero-bg">
     <!-- PLACEHOLDER: swap for licensed/own Icelandic hospitality photo -->
-    <img src="https://images.unsplash.com/photo-1504829857797-ddff29c27927?q=80&w=2000&auto=format&fit=crop" alt="Icelandic landscape at dusk">
+    <img src="https://images.unsplash.com/photo-1504829857797-ddff29c27927?q=80&w=2000&auto=format&fit=crop" alt="Icelandic landscape at dusk" fetchpriority="high" loading="eager">
   </div>
   <div class="hero-grain"></div>
   <div class="wrap">
@@ -413,7 +595,7 @@ footer{padding:60px 0 44px;border-top:1px solid var(--line)}
 
       <!-- Hotel/Guesthouse Template -->
       <div class="template-card reveal">
-        <div class="template-mockup">
+        <div class="template-mockup" role="img" aria-label="Northern Haven - Direct booking website template for Icelandic guesthouses and hotels">
           <div class="mock-content">
             <div class="mock-nav">
               <div class="mock-logo">NORTHERN HAVEN</div>
@@ -482,7 +664,7 @@ footer{padding:60px 0 44px;border-top:1px solid var(--line)}
 
       <!-- Restaurant Template -->
       <div class="template-card reveal">
-        <div class="template-mockup">
+        <div class="template-mockup" role="img" aria-label="Lava Bistro - Restaurant website template with reservation system for Icelandic restaurants">
           <div class="mock-content">
             <div class="mock-nav">
               <div class="mock-logo">LAVA BISTRO</div>
@@ -551,7 +733,7 @@ footer{padding:60px 0 44px;border-top:1px solid var(--line)}
 
       <!-- Tour Operator Template -->
       <div class="template-card reveal">
-        <div class="template-mockup">
+        <div class="template-mockup" role="img" aria-label="Wild Iceland - Tour operator website template with booking engine for Icelandic adventure tours">
           <div class="mock-content">
             <div class="mock-nav">
               <div class="mock-logo">WILD ICELAND</div>
@@ -834,6 +1016,43 @@ footer{padding:60px 0 44px;border-top:1px solid var(--line)}
   </div>
 </section>
 
+
+<!-- ===================== FAQ ===================== -->
+<section id="faq" class="faq">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">Common questions</div>
+      <h2>What Icelandic tourism businesses ask us.</h2>
+    </div>
+    
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <h3>How can I reduce my dependence on Booking.com and Airbnb?</h3>
+        <p>We build direct booking websites optimized for conversions, implement Google Ads campaigns targeting your specific tours or rooms, and optimize your existing OTA profiles to drive traffic to your direct channels. Most clients see 30-40% more direct bookings within 3 months.</p>
+      </div>
+      
+      <div class="faq-item reveal">
+        <h3>Do you work with small guesthouses or only large hotels?</h3>
+        <p>We specialize in small to medium-sized Icelandic tourism businesses — guesthouses, boutique hotels, family-run tour operators, and independent restaurants. Our Starter package (€800/month) is designed specifically for businesses with 5-15 rooms or similar scale.</p>
+      </div>
+      
+      <div class="faq-item reveal">
+        <h3>What booking platforms do you integrate with?</h3>
+        <p>We work with all major platforms used in Iceland: Booking.com, Airbnb, Bókun, Expedia, FreeToBook, and can integrate custom direct booking engines. We also manage calendar synchronization to prevent overbooking.</p>
+      </div>
+      
+      <div class="faq-item reveal">
+        <h3>How long does it take to see results from Google Ads?</h3>
+        <p>For Icelandic tourism businesses, we typically see first bookings within 7-14 days of launching campaigns. Full optimization takes 60-90 days as we refine targeting for high-season vs. shoulder-season travellers.</p>
+      </div>
+      
+      <div class="faq-item reveal">
+        <h3>Do you only work in Reykjavík or across all of Iceland?</h3>
+        <p>We work with tourism businesses across all of Iceland — from Akureyri in the North to Vík in the South. Our services are 100% remote, and we specialize in promoting destinations along the Ring Road, Golden Circle, and beyond.</p>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- ===================== CONTACT ===================== -->
 <section class="contact" id="contact">
   <div class="wrap contact-grid">
@@ -892,6 +1111,7 @@ footer{padding:60px 0 44px;border-top:1px solid var(--line)}
         <a href="#approach">Approach</a>
         <a href="#pricing">Pricing</a>
         <a href="#results">Results</a>
+        <a href="#faq">FAQ</a>
         <a href="#contact">Contact</a>
       </div>
     </div>

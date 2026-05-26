@@ -1,0 +1,6 @@
+# Hrafnar Digital - robots.txt
+User-agent: *
+Allow: /
+Disallow: /assets/fonts/
+
+Sitemap: https://hrafnar-digital.vercel.app/sitemap.xml
