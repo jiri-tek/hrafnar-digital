@@ -90,12 +90,13 @@ header{position:fixed;top:0;left:0;right:0;z-index:50;transition:.3s;
   border-bottom:1px solid transparent}
 header.scrolled{background:rgba(15,24,32,.86);backdrop-filter:blur(14px);border-color:var(--line)}
 .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 28px;max-width:1320px;margin:0 auto}
-.brand{display:flex;align-items:center;gap:13px}
+.brand{display:flex;flex-direction:column;align-items:flex-start;gap:4px}
 .hd-mark{display:block}
 .brand .hd-hdr{width:36px;height:36px;color:var(--text)}
 .brand:hover .hd-hdr{color:var(--accent);transition:color .25s}
 .brand .wm{font-family:var(--display);font-size:20px;letter-spacing:.14em;font-weight:500}
 .brand .wm span{color:var(--muted)}
+.brand-tagline{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:600;opacity:.85}
 .nav-links{display:flex;align-items:center;gap:34px}
 .nav-links a{font-size:14.5px;color:var(--muted);transition:.2s;letter-spacing:.01em}
 .nav-links a:hover{color:var(--text)}
@@ -113,8 +114,7 @@ header.scrolled{background:rgba(15,24,32,.86);backdrop-filter:blur(14px);border-
 .hero-grain{position:absolute;inset:0;z-index:1;opacity:.05;mix-blend-mode:overlay;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
 .hero .wrap{position:relative;z-index:2}
-.hero .eyebrow{margin-bottom:8px}
-.hero h1{font-size:clamp(2.7rem,6.4vw,5.3rem);max-width:720px;margin-bottom:26px;margin-top:140px}
+.hero h1{font-size:clamp(2.7rem,6.4vw,5.3rem);max-width:720px;margin-bottom:26px}
 .hero h1 em{font-style:italic;color:var(--accent)}
 .hero p.lead{font-size:clamp(1.05rem,1.6vw,1.32rem);color:var(--muted);max-width:720px;margin-bottom:40px}
 .hero-cta{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:46px}
@@ -465,6 +465,7 @@ footer{padding:60px 0 44px;border-top:1px solid var(--line)}
   <nav class="nav">
     <a href="#" class="brand" aria-label="Hrafnar Digital home">
       <span class="wm">HRAFNAR <span>DIGITAL</span></span>
+      <span class="brand-tagline">The Curator of the North</span>
     </a>
     <div class="nav-links" id="navlinks">
       <a href="#services">Services</a>
@@ -487,7 +488,6 @@ footer{padding:60px 0 44px;border-top:1px solid var(--line)}
   </div>
   <div class="hero-grain"></div>
   <div class="wrap">
-    <p class="eyebrow reveal">The Curator of the North</p>
     <h1 class="reveal">Fill the rooms. Fill the tables. <em>Fill the tours.</em></h1>
     <p class="lead reveal">Digital marketing that delivers real bookings. Performance ads, websites, and platform management for Icelandic hospitality.</p>
     <div class="hero-cta reveal">
