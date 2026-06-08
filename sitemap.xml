@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Homepage -->
   <url>
-    <loc>https://hrafnar-digital.vercel.app/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <loc>https://hrafnardigital.com/</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en-IS" href="https://hrafnar-digital.vercel.app/"/>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504829857797-ddff29c27927</image:loc>
+      <image:caption>Icelandic landscape at dusk</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://hrafnardigital.com/privacy-policy.html</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Terms & Conditions -->
+  <url>
+    <loc>https://hrafnardigital.com/terms.html</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

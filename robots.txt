@@ -1,6 +1,12 @@
-# Hrafnar Digital - robots.txt
+# Robots.txt for Hrafnar Digital
+# Allow all search engines to crawl the site
+
 User-agent: *
 Allow: /
-Disallow: /assets/fonts/
 
-Sitemap: https://hrafnar-digital.vercel.app/sitemap.xml
+# Sitemap location
+Sitemap: https://hrafnardigital.com/sitemap.xml
+
+# Crawl-delay (optional - helps with server load)
+# Most search engines respect this
+Crawl-delay: 1
