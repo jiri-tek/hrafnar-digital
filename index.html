@@ -1102,12 +1102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         LinkedIn&nbsp; <a href="https://www.linkedin.com/in/ji%C5%99%C3%AD-%C5%A1taffa-33289b215/" target="_blank" rel="noopener noreferrer">Jiri Staffa</a>
       </div>
     </div>
-    <!-- PLACEHOLDER: set form action to your Formspree (or similar) endpoint -->
-    <form id="cform" action="https://formspree.io/f/mqejybej" method="POST">
-      <!-- Hidden fields for Formspree -->
-      <input type="hidden" name="_subject" value="New audit request from Hrafnar Digital website">
-      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
-
+    <form id="cform">
       <div class="row">
         <div><label>Your name</label><input name="name" required></div>
         <div><label>Business name</label><input name="business" required></div>
@@ -1215,6 +1210,57 @@ if(matchMedia('(prefers-reduced-motion:reduce)').matches){
     carousel.style.animationPlayState='running';
   });
 })();
+
+// Contact form submission
+const form=document.getElementById('cform');
+if(form){
+  form.addEventListener('submit',async(e)=>{
+    e.preventDefault();
+    const btn=form.querySelector('button[type="submit"]');
+    const originalText=btn.textContent;
+    btn.disabled=true;
+    btn.textContent='Sending...';
+
+    const formData={
+      name:form.name.value,
+      business:form.business.value,
+      type:form.type.value,
+      email:form.email.value,
+      message:form.message.value
+    };
+
+    try{
+      const response=await fetch('https://script.google.com/macros/s/AKfycbz7YV2ylgwN_neXclevuAoixO_Zq4DWWxuY8YXA2T9i_F2Wl6kYmiwy9th74cFgDCQ/exec',{
+        method:'POST',
+        body:JSON.stringify(formData)
+      });
+
+      const result=await response.json();
+
+      if(result.result==='success'){
+        btn.textContent='✓ Sent successfully!';
+        btn.style.background='#22c55e';
+        form.reset();
+        setTimeout(()=>{
+          btn.textContent=originalText;
+          btn.style.background='';
+          btn.disabled=false;
+        },3000);
+      }else{
+        throw new Error(result.error||'Unknown error');
+      }
+    }catch(error){
+      btn.textContent='✗ Error. Try again.';
+      btn.style.background='#ef4444';
+      setTimeout(()=>{
+        btn.textContent=originalText;
+        btn.style.background='';
+        btn.disabled=false;
+      },3000);
+      console.error('Form error:',error);
+    }
+  });
+}
 </script>
 
 <!-- Cookie Consent Banner -->
