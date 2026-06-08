@@ -7,9 +7,9 @@
 <meta name="description" content="Increase direct bookings for your Iceland hotel, guesthouse, or tour company. Expert Google Ads, websites, and Booking.com management. Reduce OTA commissions by 30%. Based in Reykjavík. Free consultation.">
 
 <!-- CANONICAL & HREFLANG -->
-<link rel="canonical" href="https://hrafnar-digital.vercel.app/">
-<link rel="alternate" hreflang="en-IS" href="https://hrafnar-digital.vercel.app/">
-<link rel="alternate" hreflang="x-default" href="https://hrafnar-digital.vercel.app/">
+<link rel="canonical" href="https://www.hrafnardigital.com/">
+<link rel="alternate" hreflang="en-IS" href="https://www.hrafnardigital.com/">
+<link rel="alternate" hreflang="x-default" href="https://www.hrafnardigital.com/">
 
 <!-- GEO TARGETING FOR ICELAND -->
 <meta name="geo.region" content="IS">
@@ -19,10 +19,10 @@
 
 <!-- OPEN GRAPH META TAGS -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://hrafnar-digital.vercel.app/">
+<meta property="og:url" content="https://www.hrafnardigital.com/">
 <meta property="og:title" content="Digital Marketing for Icelandic Tourism & Hospitality | Hrafnar">
 <meta property="og:description" content="We help Icelandic guesthouses, hotels, restaurants, and tour operators grow online. Websites, Google Ads, Booking, Airbnb — handled end to end.">
-<meta property="og:image" content="https://hrafnar-digital.vercel.app/assets/og-image.jpg">
+<meta property="og:image" content="https://www.hrafnardigital.com/assets/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="en_US">
@@ -30,12 +30,39 @@
 
 <!-- TWITTER CARD META TAGS -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:url" content="https://hrafnar-digital.vercel.app/">
+<meta name="twitter:url" content="https://www.hrafnardigital.com/">
 <meta name="twitter:title" content="Digital Marketing for Icelandic Tourism | Hrafnar">
 <meta name="twitter:description" content="We help Icelandic hotels, guesthouses, and tour operators increase direct bookings and reduce OTA commissions.">
-<meta name="twitter:image" content="https://hrafnar-digital.vercel.app/assets/og-image.jpg">
+<meta name="twitter:image" content="https://www.hrafnardigital.com/assets/og-image.jpg">
 
 <link rel="icon" type="image/svg+xml" href="assets/favicon-r.svg">
+
+<!-- Google Consent Mode V2 - Default Configuration -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+// Set default consent to 'granted' for all categories
+gtag('consent', 'default', {
+  'ad_storage': 'granted',
+  'ad_user_data': 'granted',
+  'ad_personalization': 'granted',
+  'analytics_storage': 'granted',
+  'functionality_storage': 'granted',
+  'personalization_storage': 'granted',
+  'security_storage': 'granted',
+  'wait_for_update': 500
+});
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+<!-- End Google Tag Manager -->
+
 <!-- Free fallback fonts (Fraunces ≈ Gascogne Serial display, Hanken Grotesk ≈ Sarvatrik body).
      Replace with licensed @font-face below once font files are available. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -316,6 +343,25 @@ footer{padding:60px 0 44px;border-top:1px solid var(--line)}
   /* Carousel mobile: show one testimonial at a time */
   .q{min-width:100%}
 }
+
+/* ---- cookie consent banner ---- */
+#cookie-banner{position:fixed;bottom:0;left:0;right:0;background:var(--surface);
+  border-top:2px solid var(--accent);padding:24px 28px;z-index:100;
+  transform:translateY(100%);transition:.4s;box-shadow:0 -8px 32px rgba(0,0,0,.4)}
+#cookie-banner.show{transform:translateY(0)}
+.cookie-content{max-width:var(--maxw);margin:0 auto;display:flex;align-items:center;
+  justify-content:space-between;gap:24px;flex-wrap:wrap}
+.cookie-text{flex:1;min-width:280px}
+.cookie-text h3{font-size:1.1rem;margin-bottom:8px;color:var(--text)}
+.cookie-text p{font-size:14px;color:var(--muted);line-height:1.5}
+.cookie-text a{color:var(--accent);text-decoration:underline}
+.cookie-actions{display:flex;gap:12px;flex-wrap:wrap}
+.cookie-actions .btn{font-size:14px;padding:12px 24px;white-space:nowrap}
+@media(max-width:768px){
+  .cookie-content{flex-direction:column;align-items:stretch}
+  .cookie-actions{flex-direction:column}
+  .cookie-actions .btn{width:100%;justify-content:center}
+}
 </style>
 
 <!-- SCHEMA.ORG STRUCTURED DATA -->
@@ -325,10 +371,10 @@ footer{padding:60px 0 44px;border-top:1px solid var(--line)}
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://hrafnar-digital.vercel.app/#organization",
+      "@id": "https://www.hrafnardigital.com/#organization",
       "name": "Hrafnar Digital",
       "url": "https://hrafnar-digital.vercel.app",
-      "logo": "https://hrafnar-digital.vercel.app/assets/favicon-r.svg",
+      "logo": "https://www.hrafnardigital.com/assets/favicon-r.svg",
       "description": "Digital marketing agency specializing in Icelandic tourism and hospitality businesses. We help hotels, guesthouses, restaurants, and tour operators increase direct bookings.",
       "founder": {
         "@type": "Person",
@@ -359,10 +405,10 @@ footer{padding:60px 0 44px;border-top:1px solid var(--line)}
     },
     {
       "@type": "ProfessionalService",
-      "@id": "https://hrafnar-digital.vercel.app/#service",
+      "@id": "https://www.hrafnardigital.com/#service",
       "name": "Hrafnar Digital - Tourism Marketing Services",
       "provider": {
-        "@id": "https://hrafnar-digital.vercel.app/#organization"
+        "@id": "https://www.hrafnardigital.com/#organization"
       },
       "areaServed": {
         "@type": "Country",
@@ -401,12 +447,12 @@ footer{padding:60px 0 44px;border-top:1px solid var(--line)}
     },
     {
       "@type": "WebSite",
-      "@id": "https://hrafnar-digital.vercel.app/#website",
+      "@id": "https://www.hrafnardigital.com/#website",
       "url": "https://hrafnar-digital.vercel.app",
       "name": "Hrafnar Digital",
       "inLanguage": "en",
       "publisher": {
-        "@id": "https://hrafnar-digital.vercel.app/#organization"
+        "@id": "https://www.hrafnardigital.com/#organization"
       }
     }
 ,
@@ -460,6 +506,10 @@ footer{padding:60px 0 44px;border-top:1px solid var(--line)}
 </script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <header id="hdr">
   <nav class="nav">
@@ -1026,7 +1076,11 @@ footer{padding:60px 0 44px;border-top:1px solid var(--line)}
     </div>
     <div class="copy">
       <span>© <span id="yr"></span> Hrafnar Digital. All rights reserved.</span>
-      <span>Reykjavík · Iceland</span>
+      <span>
+        <a href="privacy-policy.html">Privacy Policy</a> ·
+        <a href="terms.html">Terms & Conditions</a> ·
+        Reykjavík, Iceland
+      </span>
     </div>
   </div>
 </footer>
@@ -1065,5 +1119,83 @@ if(matchMedia('(prefers-reduced-motion:reduce)').matches){
   });
 })();
 </script>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner">
+  <div class="cookie-content">
+    <div class="cookie-text">
+      <h3>We value your privacy</h3>
+      <p>We use cookies to enhance your browsing experience and analyze our traffic. By clicking "Accept All", you consent to our use of cookies. <a href="privacy-policy.html">Privacy Policy</a></p>
+    </div>
+    <div class="cookie-actions">
+      <button class="btn btn-ghost" id="cookie-reject">Reject All</button>
+      <button class="btn btn-primary" id="cookie-accept">Accept All</button>
+    </div>
+  </div>
+</div>
+
+<!-- Consent Management Script -->
+<script>
+(function() {
+  const CONSENT_KEY = 'hrafnar_consent';
+  const banner = document.getElementById('cookie-banner');
+  const acceptBtn = document.getElementById('cookie-accept');
+  const rejectBtn = document.getElementById('cookie-reject');
+
+  // Check if user has already made a choice
+  function getConsent() {
+    try {
+      return localStorage.getItem(CONSENT_KEY);
+    } catch (e) {
+      return null;
+    }
+  }
+
+  // Save consent choice
+  function saveConsent(choice) {
+    try {
+      localStorage.setItem(CONSENT_KEY, choice);
+    } catch (e) {
+      console.warn('Unable to save consent preference');
+    }
+  }
+
+  // Update Google Consent Mode
+  function updateConsent(granted) {
+    gtag('consent', 'update', {
+      'ad_storage': granted ? 'granted' : 'denied',
+      'ad_user_data': granted ? 'granted' : 'denied',
+      'ad_personalization': granted ? 'granted' : 'denied',
+      'analytics_storage': granted ? 'granted' : 'denied'
+      // functionality_storage, personalization_storage, security_storage remain granted
+    });
+  }
+
+  // Show banner if no consent recorded
+  const consent = getConsent();
+  if (consent === null) {
+    // No previous consent - show banner after short delay
+    setTimeout(() => banner.classList.add('show'), 800);
+  } else {
+    // Apply stored consent
+    updateConsent(consent === 'accepted');
+  }
+
+  // Accept button handler
+  acceptBtn.addEventListener('click', () => {
+    saveConsent('accepted');
+    updateConsent(true);
+    banner.classList.remove('show');
+  });
+
+  // Reject button handler
+  rejectBtn.addEventListener('click', () => {
+    saveConsent('rejected');
+    updateConsent(false);
+    banner.classList.remove('show');
+  });
+})();
+</script>
+
 </body>
 </html>
