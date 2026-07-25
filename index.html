@@ -1365,14 +1365,14 @@ if(form){
       const result=await response.json();
 
       if(result.result==='success'){
-        btn.textContent='✓ Sent successfully!';
+        btn.textContent='✓ Sent! We'll reply within 24 hours.';
         btn.style.background='#22c55e';
         form.reset();
         setTimeout(()=>{
           btn.textContent=originalText;
           btn.style.background='';
           btn.disabled=false;
-        },3000);
+        },5000);
       }else{
         throw new Error(result.error||'Unknown error');
       }
