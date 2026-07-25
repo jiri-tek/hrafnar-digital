@@ -157,7 +157,8 @@ header.scrolled{background:rgba(15,24,32,.86);backdrop-filter:blur(14px);border-
 .hero-claim em{font-style:italic;color:var(--accent)}
 .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .hero p.lead{font-size:clamp(1.05rem,1.6vw,1.32rem);color:var(--muted);max-width:720px;margin-bottom:40px}
-.hero-cta{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:46px}
+.hero-cta{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:46px;align-items:center}
+.cta-microcopy{font-size:13px;color:var(--muted);margin:0;width:100%;margin-top:8px}
 .trust{display:flex;gap:10px 30px;flex-wrap:wrap;font-size:13.5px;color:var(--muted);
   border-top:1px solid var(--line);padding-top:24px;max-width:680px}
 .trust span{display:flex;align-items:center;gap:9px}
@@ -621,6 +622,57 @@ footer{padding:60px 0 44px;border-top:1px solid var(--line)}
             "@type": "Answer",
             "text": "We work with tourism businesses across all of Iceland — from Akureyri in the North to Vík in the South. Our services are 100% remote, and we specialize in promoting destinations along the Ring Road, Golden Circle, and beyond."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I get a custom quote instead of your listed packages?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Our listed prices are starting points, not fixed quotes. Every property is different, so we scope projects individually. We'll review your current digital presence, booking patterns, and goals to create a proposal that fits your budget and needs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you work in Icelandic or English?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Both. Our team works with international tourists and Icelandic markets alike. We create multilingual campaigns, translate marketing materials, and ensure your messaging resonates with both local and global audiences."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What social media platforms do you manage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We focus on platforms that drive bookings: Instagram and Facebook for visuals and engagement, Google Business Profile for local search, and TripAdvisor for reviews management. We can also help with TikTok for tour operators targeting younger travellers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does your website development process work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We start with a discovery call to understand your brand and goals. Then we design a custom website optimized for direct bookings — mobile-first, fast-loading, with integrated booking engines. Most websites launch within 4-6 weeks from approval."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are your payment terms and contract length?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No long-term contracts — you can cancel monthly services anytime with 30 days notice. We invoice monthly in ISK, with optional quarterly discounts. For website projects, we typically do 50% upfront and 50% on launch."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hrafnardigital.com/"
         }
       ]
     }
@@ -647,7 +699,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a href="#results">Results</a>
       <a href="#faq">FAQ</a>
       <a href="#founder">Founder</a>
-      <a href="#contact" class="btn btn-primary nav-cta">Get your growth plan</a>
+      <a href="#contact" class="btn btn-primary nav-cta">Get Free Consultation</a>
     </div>
     <button class="burger" id="burger" aria-label="Menu">☰</button>
   </nav>
@@ -659,7 +711,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="hero" id="top">
   <div class="hero-bg">
     <!-- PLACEHOLDER: swap for licensed/own Icelandic hospitality photo -->
-    <img src="https://images.unsplash.com/photo-1504829857797-ddff29c27927?q=80&w=2000&auto=format&fit=crop" alt="Icelandic landscape at dusk" fetchpriority="high" loading="eager">
+    <img src="https://images.unsplash.com/photo-1504829857797-ddff29c27927?q=80&w=2000&auto=format&fit=crop" alt="Scenic Icelandic landscape representing tourism and hospitality marketing in Iceland" fetchpriority="high" loading="eager">
   </div>
   <div class="hero-grain"></div>
   <div class="wrap">
@@ -667,8 +719,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h2 class="hero-claim reveal">Fill the rooms. Fill the tables. <em>Fill the tours.</em></h2>
     <p class="lead reveal">Digital marketing that delivers real bookings. Performance ads, websites, social media, data, and platform management for Icelandic hospitality.</p>
     <div class="hero-cta reveal">
-      <a href="#contact" class="btn btn-primary">Get your growth plan</a>
+      <a href="#contact" class="btn btn-primary">Get Your Free Consultation</a>
       <a href="#services" class="btn btn-ghost">See the work</a>
+      <p class="cta-microcopy">15-min discovery call · No obligation · Tailored insights</p>
     </div>
     <div class="trust reveal">
       <span>Performance &amp; data first</span>
@@ -949,53 +1002,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 
-<!-- ===================== PRICING ===================== -->
-<section id="pricing">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <p class="eyebrow">Pricing</p>
-      <h2>You pay for outcomes. Not overhead.</h2>
-      <p class="muted">Fair rates. Fairer than most. Always transparent. Starting points, not hard quotes — we scope to your property.</p>
-    </div>
-    <div class="tiers">
-      <div class="tier reveal">
-        <div class="nm">Starter</div>
-        <div class="pr">from 150,000 ISK<small>per month</small></div>
-        <ul>
-          <li>Multiple channels, light management</li>
-          <li>Listing &amp; pricing review</li>
-          <li>Monthly report, one page</li>
-          <li>Direct email support</li>
-        </ul>
-        <a href="#contact" class="btn btn-ghost">Start here</a>
-      </div>
-      <div class="tier feat reveal">
-        <div class="nm">Growth</div>
-        <div class="pr">from 300,000 ISK<small>per month · most chosen</small></div>
-        <ul>
-          <li>Performance marketing managed</li>
-          <li>Platforms + social</li>
-          <li>Full dashboards &amp; tracking</li>
-          <li>Monthly strategy call</li>
-        </ul>
-        <a href="#contact" class="btn btn-primary">Get your growth plan</a>
-      </div>
-      <div class="tier reveal">
-        <div class="nm">Full Service</div>
-        <div class="pr">Custom<small>scoped to your property</small></div>
-        <ul>
-          <li>Website + every channel</li>
-          <li>Data &amp; reporting in full</li>
-          <li>Ongoing consulting</li>
-          <li>We run the digital. You run the business.</li>
-        </ul>
-        <a href="#contact" class="btn btn-ghost">Let's talk</a>
-      </div>
-    </div>
-    <p class="fineprint">No long contracts. Cancel anytime. &nbsp;·&nbsp; Pricing in ISK, VAT excluded. &nbsp;·&nbsp; Tied to real hours — you pay for results, not retainer padding.</p>
-  </div>
-</section>
-
 <!-- ===================== RESULTS ===================== -->
 <section class="results" id="results">
   <div class="wrap">
@@ -1085,6 +1091,53 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 
+<!-- ===================== PRICING ===================== -->
+<section id="pricing">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Pricing</p>
+      <h2>You pay for outcomes. Not overhead.</h2>
+      <p class="muted">Fair rates. Fairer than most. Always transparent. Starting points, not hard quotes — we scope to your property.</p>
+    </div>
+    <div class="tiers">
+      <div class="tier reveal">
+        <div class="nm">Starter</div>
+        <div class="pr">from 150,000 ISK<small>per month</small></div>
+        <ul>
+          <li>Multiple channels, light management</li>
+          <li>Listing &amp; pricing review</li>
+          <li>Monthly report, one page</li>
+          <li>Direct email support</li>
+        </ul>
+        <a href="#contact" class="btn btn-ghost">Start here</a>
+      </div>
+      <div class="tier feat reveal">
+        <div class="nm">Growth</div>
+        <div class="pr">from 300,000 ISK<small>per month · most chosen</small></div>
+        <ul>
+          <li>Performance marketing managed</li>
+          <li>Platforms + social</li>
+          <li>Full dashboards &amp; tracking</li>
+          <li>Monthly strategy call</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Get your growth plan</a>
+      </div>
+      <div class="tier reveal">
+        <div class="nm">Full Service</div>
+        <div class="pr">Custom<small>scoped to your property</small></div>
+        <ul>
+          <li>Website + every channel</li>
+          <li>Data &amp; reporting in full</li>
+          <li>Ongoing consulting</li>
+          <li>We run the digital. You run the business.</li>
+        </ul>
+        <a href="#contact" class="btn btn-ghost">Let's talk</a>
+      </div>
+    </div>
+    <p class="fineprint">No long contracts. Cancel anytime. &nbsp;·&nbsp; Pricing in ISK, VAT excluded. &nbsp;·&nbsp; Tied to real hours — you pay for results, not retainer padding.</p>
+  </div>
+</section>
+
 <!-- ===================== FOUNDER ===================== -->
 <section id="founder">
   <div class="wrap founder">
@@ -1137,6 +1190,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <h3>Do you only work in Reykjavík or across all of Iceland?</h3>
         <p>We work with tourism businesses across all of Iceland — from Akureyri in the North to Vík in the South. Our services are 100% remote, and we specialize in promoting destinations along the Ring Road, Golden Circle, and beyond.</p>
       </div>
+
+      <div class="faq-item reveal">
+        <h3>Can I get a custom quote instead of your listed packages?</h3>
+        <p>Absolutely. Our listed prices are starting points, not fixed quotes. Every property is different, so we scope projects individually. We'll review your current digital presence, booking patterns, and goals to create a proposal that fits your budget and needs.</p>
+      </div>
+
+      <div class="faq-item reveal">
+        <h3>Do you work in Icelandic or English?</h3>
+        <p>Both. Our team works with international tourists and Icelandic markets alike. We create multilingual campaigns, translate marketing materials, and ensure your messaging resonates with both local and global audiences.</p>
+      </div>
+
+      <div class="faq-item reveal">
+        <h3>What social media platforms do you manage?</h3>
+        <p>We focus on platforms that drive bookings: Instagram and Facebook for visuals and engagement, Google Business Profile for local search, and TripAdvisor for reviews management. We can also help with TikTok for tour operators targeting younger travellers.</p>
+      </div>
+
+      <div class="faq-item reveal">
+        <h3>How does your website development process work?</h3>
+        <p>We start with a discovery call to understand your brand and goals. Then we design a custom website optimized for direct bookings — mobile-first, fast-loading, with integrated booking engines. Most websites launch within 4-6 weeks from approval.</p>
+      </div>
+
+      <div class="faq-item reveal">
+        <h3>What are your payment terms and contract length?</h3>
+        <p>No long-term contracts — you can cancel monthly services anytime with 30 days notice. We invoice monthly in ISK, with optional quarterly discounts. For website projects, we typically do 50% upfront and 50% on launch.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -1170,7 +1248,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div><label>Email</label><input type="email" name="email" required></div>
       </div>
       <div><label>How can we help?</label><textarea name="message" required></textarea></div>
-      <button class="btn btn-primary" type="submit">Get your growth plan</button>
+      <button class="btn btn-primary" type="submit">Book Your Free Consultation</button>
     </form>
   </div>
 </section>
