@@ -4,9 +4,13 @@
 User-agent: *
 Allow: /
 
+# Block logo preview files from indexing
+Disallow: /logo-preview.html
+Disallow: /logo-preview-clean.html
+Disallow: /logo-all-variants.html
+Disallow: /logo-final-preview.html
+Disallow: /logo-showcase.html
+Disallow: /hrafnar-digital/
+
 # Sitemap location
 Sitemap: https://hrafnardigital.com/sitemap.xml
-
-# Crawl-delay (optional - helps with server load)
-# Most search engines respect this
-Crawl-delay: 1
