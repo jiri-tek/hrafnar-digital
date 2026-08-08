@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en-IS">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog | Iceland Tourism Marketing Insights | Hrafnar Digital</title>
+<meta name="description" content="Expert insights on digital marketing for Icelandic tourism. Learn how to reduce OTA commissions, increase direct bookings, and grow your hospitality business online.">
+
+<!-- CANONICAL & HREFLANG -->
+<link rel="canonical" href="https://hrafnardigital.com/blog/">
+<link rel="alternate" hreflang="en-IS" href="https://hrafnardigital.com/blog/">
+<link rel="alternate" hreflang="x-default" href="https://hrafnardigital.com/blog/">
+
+<!-- GEO TARGETING FOR ICELAND -->
+<meta name="geo.region" content="IS">
+<meta name="geo.placename" content="Reykjavík">
+<meta name="geo.position" content="64.126521;-21.817439">
+<meta name="ICBM" content="64.126521, -21.817439">
+
+<!-- OPEN GRAPH META TAGS -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hrafnardigital.com/blog/">
+<meta property="og:title" content="Blog | Iceland Tourism Marketing Insights | Hrafnar Digital">
+<meta property="og:description" content="Expert insights on digital marketing for Icelandic tourism. Reduce OTA commissions, increase direct bookings, grow your hospitality business.">
+<meta property="og:image" content="https://hrafnardigital.com/assets/og-image.jpg">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Hrafnar Digital">
+
+<!-- TWITTER CARD META TAGS -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://hrafnardigital.com/blog/">
+<meta name="twitter:title" content="Blog | Iceland Tourism Marketing | Hrafnar Digital">
+<meta name="twitter:description" content="Expert insights on digital marketing for Icelandic tourism and hospitality.">
+<meta name="twitter:image" content="https://hrafnardigital.com/assets/og-image.jpg">
+
+<link rel="icon" type="image/svg+xml" href="../assets/favicon-r.svg">
+
+<!-- Google Tag Manager -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {
+  'ad_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied',
+  'analytics_storage': 'denied',
+  'personalization_storage': 'denied',
+  'functionality_storage': 'granted',
+  'security_storage': 'granted'
+});
+const savedConsent = localStorage.getItem('hrafnar_consent_v2');
+if (savedConsent) {
+  gtag('consent', 'update', JSON.parse(savedConsent));
+}
+</script>
+<script>
+window.addEventListener('load', function() {
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PTVRMSBZ');
+});
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#0F1820;
+  --surface:#16222B;
+  --surface-2:#1B2A34;
+  --text:#F2EFE9;
+  --muted:#8B97A1;
+  --accent:#FC4D02;
+  --line:#243038;
+  --display:"Gascogne Serial","Fraunces",Georgia,serif;
+  --body:"Sarvatrik","Hanken Grotesk",system-ui,sans-serif;
+  --maxw:1180px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg);color:var(--text);font-family:var(--body);
+  font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+h1,h2,h3{font-family:var(--display);font-weight:500;line-height:1.05;letter-spacing:-.02em}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+.eyebrow{font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:20px}
+.muted{color:var(--muted)}
+
+/* ---- buttons ---- */
+.btn{display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:15px;
+  padding:15px 28px;border-radius:2px;transition:.25s;cursor:pointer;border:1px solid transparent;
+  background:transparent}
+.btn-primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 14px 34px -12px rgba(252,77,2,.55)}
+.btn-ghost{border-color:var(--line);color:var(--text);background:var(--bg)}
+.btn-ghost:hover{border-color:var(--accent);color:var(--accent);background:var(--surface)}
+
+/* ---- header ---- */
+header{position:fixed;top:0;left:0;right:0;z-index:50;transition:.3s;
+  border-bottom:1px solid transparent;background:rgba(15,24,32,.86);backdrop-filter:blur(14px);border-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:18px 28px;max-width:1320px;margin:0 auto}
+.brand{display:flex;flex-direction:column;align-items:flex-start;gap:4px}
+.brand .wm{font-family:var(--display);font-size:20px;letter-spacing:.14em;font-weight:500}
+.brand .wm span{color:var(--muted)}
+.brand-tagline{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:600;opacity:.85}
+.nav-links{display:flex;align-items:center;gap:34px}
+.nav-links a{font-size:14.5px;color:var(--muted);transition:.2s;letter-spacing:.01em}
+.nav-links a:hover{color:var(--text)}
+.nav-links a.active{color:var(--accent)}
+.nav-links .btn-primary{color:#fff}
+.nav-cta{padding:11px 22px;font-size:14px}
+.burger{display:none;background:none;border:0;color:var(--text);font-size:26px;cursor:pointer}
+
+/* ---- blog header ---- */
+.blog-header{padding:160px 0 80px;text-align:center}
+.blog-header h1{font-size:clamp(2.4rem,5vw,3.8rem);margin-bottom:20px}
+.blog-header p{font-size:1.15rem;color:var(--muted);max-width:640px;margin:0 auto}
+
+/* ---- blog grid ---- */
+.blog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:32px;padding-bottom:120px}
+.blog-card{background:var(--surface);border:1px solid var(--line);transition:.3s;overflow:hidden}
+.blog-card:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:0 16px 48px rgba(0,0,0,.3)}
+.blog-card-img{height:200px;background:var(--surface-2);overflow:hidden}
+.blog-card-img img{width:100%;height:100%;object-fit:cover;transition:.3s}
+.blog-card:hover .blog-card-img img{transform:scale(1.05)}
+.blog-card-body{padding:28px}
+.blog-card .category{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:12px}
+.blog-card h2{font-size:1.4rem;margin-bottom:12px;line-height:1.25}
+.blog-card p{color:var(--muted);font-size:15px;line-height:1.55;margin-bottom:18px}
+.blog-card .meta{font-size:13px;color:var(--muted);display:flex;gap:16px}
+.blog-card .meta span{display:flex;align-items:center;gap:6px}
+.read-more{color:var(--accent);font-weight:600;font-size:14px;display:inline-flex;align-items:center;gap:8px;transition:.2s}
+.read-more:hover{gap:12px}
+
+/* ---- footer ---- */
+footer{background:var(--surface);border-top:1px solid var(--line);padding:64px 0 40px}
+.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:40px;margin-bottom:40px}
+.foot .tg{color:var(--muted);font-size:14px;max-width:320px;margin:14px 0}
+.foot .lic{font-size:13px;color:var(--muted)}
+.foot-nav{display:flex;flex-wrap:wrap;gap:18px 32px}
+.foot-nav a{font-size:14px;color:var(--muted);transition:.2s}
+.foot-nav a:hover{color:var(--text)}
+.copy{border-top:1px solid var(--line);padding-top:28px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--muted)}
+.copy a{color:var(--muted);transition:.2s}
+.copy a:hover{color:var(--accent)}
+
+/* ---- reveal ---- */
+.reveal{opacity:0;transform:translateY(28px);transition:.85s cubic-bezier(.16,.8,.3,1)}
+.reveal.in{opacity:1;transform:none}
+
+/* ---- mobile ---- */
+@media(max-width:900px){
+  .nav-links{position:fixed;top:0;right:0;width:65%;max-width:280px;height:100vh;background:var(--surface);
+    flex-direction:column;align-items:flex-start;padding:80px 28px 40px;gap:24px;
+    transform:translateX(100%);transition:.35s}
+  .nav-links.open{transform:none}
+  .nav-links a{font-size:15px}
+  .nav-links .nav-cta{padding:10px 18px;font-size:13px;width:100%;justify-content:center}
+  .burger{display:block}
+  .blog-header{padding:120px 0 60px}
+  .blog-grid{grid-template-columns:1fr;gap:24px}
+  .foot{flex-direction:column;gap:30px}
+  .copy{flex-direction:column;text-align:center}
+}
+
+.nav-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);opacity:0;visibility:hidden;transition:.3s;z-index:40}
+.nav-overlay.show{opacity:1;visibility:visible}
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <a href="../" class="brand" aria-label="Hrafnar Digital home">
+      <span class="wm">HRAFNAR <span>DIGITAL</span></span>
+      <span class="brand-tagline">The Curator of the North</span>
+    </a>
+    <div class="nav-links" id="navlinks">
+      <a href="../#services">Services</a>
+      <a href="../#templates">Templates</a>
+      <a href="../#pricing">Pricing</a>
+      <a href="./" class="active">Blog</a>
+      <a href="../#faq">FAQ</a>
+      <a href="../#contact" class="btn btn-primary nav-cta">Get Free Consultation</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Menu">&#9776;</button>
+  </nav>
+</header>
+
+<div class="nav-overlay" id="navOverlay"></div>
+
+<section class="blog-header">
+  <div class="wrap">
+    <p class="eyebrow reveal">Insights & Strategy</p>
+    <h1 class="reveal">Iceland Tourism Marketing Blog</h1>
+    <p class="reveal">Expert strategies to increase direct bookings, reduce OTA commissions, and grow your hospitality business online.</p>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="blog-grid">
+
+    <article class="blog-card reveal">
+      <a href="reduce-ota-commissions-iceland-hotels.html">
+        <div class="blog-card-img">
+          <img src="https://images.unsplash.com/photo-1504893524553-b855bce32c67?q=80&w=800&auto=format&fit=crop" alt="Hotel room representing OTA commission savings" loading="lazy">
+        </div>
+        <div class="blog-card-body">
+          <span class="category">Revenue Strategy</span>
+          <h2>How to Reduce OTA Commissions by 30% for Your Iceland Hotel</h2>
+          <p>Practical strategies Icelandic hotels and guesthouses use to shift bookings from Booking.com to direct channels without losing visibility.</p>
+          <div class="meta">
+            <span>8 min read</span>
+            <span>Aug 2026</span>
+          </div>
+        </div>
+      </a>
+    </article>
+
+    <article class="blog-card reveal">
+      <a href="google-ads-iceland-tourism-roi.html">
+        <div class="blog-card-img">
+          <img src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?q=80&w=800&auto=format&fit=crop" alt="Analytics dashboard showing Google Ads performance" loading="lazy">
+        </div>
+        <div class="blog-card-body">
+          <span class="category">Performance Marketing</span>
+          <h2>Google Ads for Iceland Tourism: ROI Benchmarks & What Actually Works</h2>
+          <p>Real data from Icelandic hospitality campaigns. Cost per booking, seasonal patterns, and the keywords that convert.</p>
+          <div class="meta">
+            <span>10 min read</span>
+            <span>Aug 2026</span>
+          </div>
+        </div>
+      </a>
+    </article>
+
+    <article class="blog-card reveal">
+      <a href="direct-booking-strategy-guesthouses.html">
+        <div class="blog-card-img">
+          <img src="https://images.unsplash.com/photo-1476610182048-b716b8518aae?q=80&w=800&auto=format&fit=crop" alt="Cozy guesthouse interior representing direct bookings" loading="lazy">
+        </div>
+        <div class="blog-card-body">
+          <span class="category">Direct Bookings</span>
+          <h2>Direct Booking Strategy for Icelandic Guesthouses: A Complete Guide</h2>
+          <p>From website optimization to email marketing. How small guesthouses compete with OTA giants and win direct bookings.</p>
+          <div class="meta">
+            <span>12 min read</span>
+            <span>Aug 2026</span>
+          </div>
+        </div>
+      </a>
+    </article>
+
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a href="../" class="brand" style="align-items:flex-start">
+          <span class="wm">HRAFNAR <span>DIGITAL</span></span>
+        </a>
+        <p class="tg">Digital marketing for Icelandic tourism & hospitality. The Curator of the North.</p>
+        <p class="lic">Hrafnar leiðsögn ehf.<br>Þórsgata 19, 101 Reykjavík, Iceland</p>
+      </div>
+      <div class="foot-nav">
+        <a href="../#services">Services</a>
+        <a href="../#templates">Templates</a>
+        <a href="../#pricing">Pricing</a>
+        <a href="./">Blog</a>
+        <a href="../#faq">FAQ</a>
+        <a href="../#contact">Contact</a>
+      </div>
+    </div>
+    <div class="copy">
+      <span>&copy; <span id="yr"></span> Hrafnar leiðsögn ehf. All rights reserved.</span>
+      <span>
+        <a href="../privacy-policy.html">Privacy Policy</a> &middot;
+        <a href="../terms.html">Terms & Conditions</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+const bg=document.getElementById('burger'),nl=document.getElementById('navlinks');
+const overlay=document.getElementById('navOverlay');
+bg.onclick=()=>{
+  nl.classList.toggle('open');
+  overlay.classList.toggle('show');
+};
+overlay.onclick=()=>{
+  nl.classList.remove('open');
+  overlay.classList.remove('show');
+};
+nl.querySelectorAll('a').forEach(a=>a.onclick=()=>{
+  nl.classList.remove('open');
+  overlay.classList.remove('show');
+});
+const io=new IntersectionObserver((es)=>es.forEach(e=>{
+  if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}
+}),{threshold:.14});
+document.querySelectorAll('.reveal').forEach((el,i)=>{
+  el.style.transitionDelay=(i%5*70)+'ms';io.observe(el);
+});
+if(matchMedia('(prefers-reduced-motion:reduce)').matches){
+  document.querySelectorAll('.reveal').forEach(el=>{el.style.transition='none';el.classList.add('in');});
+}
+</script>
+
+</body>
+</html>

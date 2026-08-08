@@ -4,12 +4,54 @@
   <!-- Homepage -->
   <url>
     <loc>https://hrafnardigital.com/</loc>
-    <lastmod>2026-07-25</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1504829857797-ddff29c27927</image:loc>
       <image:caption>Icelandic landscape at dusk</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Blog Index -->
+  <url>
+    <loc>https://hrafnardigital.com/blog/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Blog Articles -->
+  <url>
+    <loc>https://hrafnardigital.com/blog/reduce-ota-commissions-iceland-hotels.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504893524553-b855bce32c67</image:loc>
+      <image:caption>Hotel room representing OTA commission strategies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://hrafnardigital.com/blog/google-ads-iceland-tourism-roi.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1531366936337-7c912a4589a7</image:loc>
+      <image:caption>Analytics dashboard showing Google Ads performance</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://hrafnardigital.com/blog/direct-booking-strategy-guesthouses.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1476610182048-b716b8518aae</image:loc>
+      <image:caption>Cozy guesthouse interior</image:caption>
     </image:image>
   </url>
 
